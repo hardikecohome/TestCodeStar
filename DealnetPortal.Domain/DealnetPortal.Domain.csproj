@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E19A2AB3-216E-45E0-BA5B-9211B2D112E3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DealnetPortal.Domain</RootNamespace>
+    <AssemblyName>DealnetPortal.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UnitTesting|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\UnitTesting\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Staging|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Staging\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Training|AnyCPU'">
+    <OutputPath>bin\Training\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'TrainingClarity|AnyCPU'">
+    <OutputPath>bin\TrainingClarity\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Production|AnyCPU'">
+    <OutputPath>bin\Production\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'AWSProduction|AnyCPU'">
+    <OutputPath>bin\AWSProduction\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'AWSTestProduction|AnyCPU'">
+    <OutputPath>bin\AWSTestProduction\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CipherCore, Version=2017.12.6571.15015, Culture=neutral, PublicKeyToken=e0287981ec67bb47, processorArchitecture=MSIL">
+      <HintPath>..\packages\CipherCore.2017.12.1\lib\net45\CipherCore.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgreementTemplate.cs" />
+    <Compile Include="AgreementTemplateDocument.cs" />
+    <Compile Include="Application.cs" />
+    <Compile Include="ApplicationUser.cs" />
+    <Compile Include="AspireStatus.cs" />
+    <Compile Include="Comment.cs" />
+    <Compile Include="Contract.cs" />
+    <Compile Include="ContractDetails.cs" />
+    <Compile Include="ContractDocument.cs" />
+    <Compile Include="ContractSalesRepInfo.cs" />
+    <Compile Include="ContractSigner.cs" />
+    <Compile Include="CreditAmountSetting.cs" />
+    <Compile Include="CustomerCreditReport.cs" />
+    <Compile Include="DealerArea.cs" />
+    <Compile Include="DealerEquipment.cs" />
+    <Compile Include="DealerProfile.cs" />
+    <Compile Include="CustomerLink.cs" />
+    <Compile Include="DealerLanguage.cs" />
+    <Compile Include="DealerService.cs" />
+    <Compile Include="Address.cs" />
+    <Compile Include="Dealer\CompanyInfo.cs" />
+    <Compile Include="Dealer\CompanyProvince.cs" />
+    <Compile Include="Dealer\DealerInfo.cs" />
+    <Compile Include="Dealer\ManufacturerBrand.cs" />
+    <Compile Include="Dealer\OwnerInfo.cs" />
+    <Compile Include="Dealer\ProductInfo.cs" />
+    <Compile Include="Dealer\ProductService.cs" />
+    <Compile Include="Dealer\AdditionalDocument.cs" />
+    <Compile Include="Dealer\RequiredDocument.cs" />
+    <Compile Include="DocumentType.cs" />
+    <Compile Include="Email.cs" />
+    <Compile Include="EmploymentInfo.cs" />
+    <Compile Include="EquipmentInfo.cs" />
+    <Compile Include="EquipmentSubType.cs" />
+    <Compile Include="FundingCheckDocument.cs" />
+    <Compile Include="FundingCheckList.cs" />
+    <Compile Include="FundingDocumentList.cs" />
+    <Compile Include="InstallationPackage.cs" />
+    <Compile Include="LicenseDocument.cs" />
+    <Compile Include="LicenseType.cs" />
+    <Compile Include="EquipmentType.cs" />
+    <Compile Include="ExistingEquipment.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="ContractData.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="LoggedInUser.cs" />
+    <Compile Include="PaymentInfo.cs" />
+    <Compile Include="NewEquipment.cs" />
+    <Compile Include="Phone.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProvinceTaxRate.cs" />
+    <Compile Include="RateReductionCard.cs" />
+    <Compile Include="RateCard.cs" />
+    <Compile Include="Repositories\IApplicationRepository.cs" />
+    <Compile Include="Repositories\IContractRepository.cs" />
+    <Compile Include="Repositories\ICustomerFormRepository.cs" />
+    <Compile Include="Repositories\IDealerOnboardingRepository.cs" />
+    <Compile Include="Repositories\IDealerRepository.cs" />
+    <Compile Include="Repositories\IFileRepository.cs" />
+    <Compile Include="Repositories\ILicenseDocumentRepository.cs" />
+    <Compile Include="Repositories\IRateCardsRepository.cs" />
+    <Compile Include="Repositories\ISettingsRepository.cs" />
+    <Compile Include="SettingItem.cs" />
+    <Compile Include="SettingValue.cs" />
+    <Compile Include="CustomerRiskGroup.cs" />
+    <Compile Include="Tier.cs" />
+    <Compile Include="UserSettings.cs" />
+    <Compile Include="VerifiactionId.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DealnetPortal.Api.Common\DealnetPortal.Api.Common.csproj">
+      <Project>{23FA957A-A9DE-4929-9FFD-603BAE271FBA}</Project>
+      <Name>DealnetPortal.Api.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

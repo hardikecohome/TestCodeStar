@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Dealnet/Server" />
+  <setParameter name="DefaultConnection-Web.config Connection String" value="Server=.; Database=DealnetPortal; Integrated Security=false;User ID=dealnet;Password=!Q2w3e4r" />
+  <setParameter name="AspireConnection-Web.config Connection String" value="Server=195.206.225.83; Database=Aspire; Integrated Security=false;User ID=dealnet;Password=!Q2w3e4r" />
+  <setParameter name="CustomerWalletApiUrl" value="http://195.206.225.83:8082/Server/api" />
+  <setParameter name="CustomerWalletClient" value="https://cw.demo243.dataart.com/Client" />
+</parameters>

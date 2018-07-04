@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Dealnet/Server" />
+  <setParameter name="DefaultConnection-Web.config Connection String" value="Data Source=FS-S2012-DEV01;Initial Catalog=dev-DealerPortal;User ID=dev-portal;Password=devportal123" />
+  <setParameter name="AspireConnection-Web.config Connection String" value="Server=10.12.17.114; Database=ltiv4Test; Integrated Security=false;Connection Timeout=30;User ID=ecohomecr1;Password=yNl!CJaa" />
+
+  <parameter name="changeErrorLogTo" value="hsharma@ecohomefinancial.com">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='ErrorLogTo']/@value"/>
+  </parameter>
+  <parameter name="changeErrorLogFrom" value="dev@notification.ecohomefinancial.com">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='ErrorLogFrom']/@value"/>
+  </parameter>
+  <!--ENTER HERE DocuSign digital signature settings-->
+  <parameter name="changeDocuSignUser" value="a4dd97c1-db32-4456-a70e-3f4f4909962a">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='DocuSignUser']/@value"/>
+  </parameter>
+  <parameter name="changeDocuSignPassword" value="Hiren1234">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='DocuSignPassword']/@value"/>
+  </parameter>
+  <parameter name="changeDocuSignNotificationsUrl" value="https://staging-dev.ecohomefinancial.com/Dev-SMSListener/api/DocuSignListener/NotifySignatureStatus">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='DocuSignNotificationsUrl']/@value"/>
+  </parameter>
+  
+  <parameter name="changeDealerPortalDraftUrl" value="https://staging-dev.ecohomefinancial.com/DevApplication/Dealer/ResumeOnBoarding/">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='DealerPortalDraftUrl']/@value"/>
+  </parameter>
+  
+  <!--Customer Wallet integration-->
+  <parameter name="changeCustomerWalletApiUrl" value="http://fs-s2012-dev01.corp.dealnetcapital.com:9090/dev-customerwallet/api">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='CustomerWalletApiUrl']/@value"/>
+  </parameter>
+  <parameter name="changeCustomerWalletClient" value="http://staging-dev.ecohomefinancial.com/DevCW">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='CustomerWalletClient']/@value"/>
+  </parameter>
+  <parameter name="changeCustomerWalletPhone" value="1-888-859-0059">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='CustomerWalletPhone']/@value"/>
+  </parameter>
+  
+  <parameter name="changeDealNetEmail" value="hirenecohome@gmail.com">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='DealNetEmail']/@value"/>
+  </parameter>
+  <parameter name="changeDealNetErrorLogsEmail" value="hirenecohome+error@gmail.com">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='DealNetErrorLogsEmail']/@value"/>
+  </parameter>
+  <parameter name="changeCreditDecisionDealNetEmail" value="hirenecohome+1@gmail.com">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='CreditDecisionDealNetEmail']/@value"/>
+  </parameter>
+  <parameter name="changeCreditDocsDealNetEmail" value="hirenecohome+2@gmail.com">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='CreditDocsDealNetEmail']/@value"/>
+  </parameter>
+  <parameter name="changeFundingDocsDealNetEmail" value="hirenecohome+3@gmail.com">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='FundingDocsDealNetEmail']/@value"/>
+  </parameter>
+  <parameter name="changeOtherDealNetEmail" value="hirenecohome+4@gmail.com">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='OtherDealNetEmail']/@value"/>
+  </parameter>
+  <parameter name="changeQuebecCreditDecisionDealNetEmail" value="hirenecohome+qccredit@gmail.com">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='QuebecCreditDecisionDealNetEmail']/@value"/>
+  </parameter>
+  <parameter name="changeQuebecCreditDocsDealNetEmail" value="hirenecohome+qccreditdoc@gmail.com">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='QuebecCreditDocsDealNetEmail']/@value"/>
+  </parameter>
+  <parameter name="changeQuebecFundingDocsDealNetEmail" value="hirenecohome+qcfunding@gmail.com">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='QuebecFundingDocsDealNetEmail']/@value"/>
+  </parameter>
+  <parameter name="changeQuebecOtherDealNetEmail" value="hirenecohome+qcdealnet@gmail.com">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='QuebecOtherDealNetEmail']/@value"/>
+  </parameter>
+  <!--MailChimp api-->
+  <parameter name="changeMailChimpApiKey" value="3bd04b10b9b1ab17a1200a50305533b6-us15">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='MailChimpApiKey']/@value"/>
+  </parameter>
+  <parameter name="changeListID" value="6a1172f8c2">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='ListID']/@value"/>
+  </parameter>
+  <parameter name="changeRegistrationListID" value="b4f4279fcc">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='RegistrationListID']/@value"/>
+  </parameter>
+  
+  <parameter name="changeClarityTierName" value="Clarity ClimateCare Program">
+    <parameterEntry type="XMLFile" scope="web.config$" match="//configuration/appSettings/add[@key='ClarityTierName']/@value"/>
+  </parameter>
+</parameters>

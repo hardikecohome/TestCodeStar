@@ -1,0 +1,1057 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContractWasDeclined" xml:space="preserve">
+    <value>Contract {0} was declined</value>
+  </data>
+  <data name="ContractWasSuccessfullyChanged" xml:space="preserve">
+    <value>Contract {0} was successfully changed</value>
+  </data>
+  <data name="ContractWasSuccessfullySubmitted" xml:space="preserve">
+    <value>Contract {0} was successfully submitted</value>
+  </data>
+  <data name="HomeOwnersName" xml:space="preserve">
+    <value>Home Owner's Name:</value>
+  </data>
+  <data name="PleaseSignAgreement" xml:space="preserve">
+    <value>Please Sign Agreement</value>
+  </data>
+  <data name="TypeOfApplication" xml:space="preserve">
+    <value>Type of Application:</value>
+  </data>
+  <data name="AirConditioner" xml:space="preserve">
+    <value>Air Conditioner</value>
+  </data>
+  <data name="AirHandler" xml:space="preserve">
+    <value>Air Handler</value>
+  </data>
+  <data name="AndThenYouPromptedToChangePass" xml:space="preserve">
+    <value>and then you will be prompted to change the password.</value>
+  </data>
+  <data name="BasementRepair" xml:space="preserve">
+    <value>Basement Repair</value>
+  </data>
+  <data name="Bathroom" xml:space="preserve">
+    <value>Bathroom</value>
+  </data>
+  <data name="Boiler" xml:space="preserve">
+    <value>Boiler</value>
+  </data>
+  <data name="Doors" xml:space="preserve">
+    <value>Doors</value>
+  </data>
+  <data name="EexternalLoginAlreadyAssociated" xml:space="preserve">
+    <value>The external login is already associated with an account.</value>
+  </data>
+  <data name="ErrorOnRegisterUser" xml:space="preserve">
+    <value>Error on Register user</value>
+  </data>
+  <data name="ExtendedWarrantyForm" xml:space="preserve">
+    <value>Extended Warranty Form</value>
+  </data>
+  <data name="ExternalLoginFailure" xml:space="preserve">
+    <value>External login failure.</value>
+  </data>
+  <data name="ExternalServiceUnavailable" xml:space="preserve">
+    <value>External service is unavailable</value>
+  </data>
+  <data name="Fireplace" xml:space="preserve">
+    <value>Fireplace</value>
+  </data>
+  <data name="Flooring" xml:space="preserve">
+    <value>Flooring</value>
+  </data>
+  <data name="Furnace" xml:space="preserve">
+    <value>Furnace</value>
+  </data>
+  <data name="Gst" xml:space="preserve">
+    <value>GST</value>
+  </data>
+  <data name="GstPst" xml:space="preserve">
+    <value>GST + PST</value>
+  </data>
+  <data name="GstQst" xml:space="preserve">
+    <value>GST + QST</value>
+  </data>
+  <data name="HeatPump" xml:space="preserve">
+    <value>Heat Pump</value>
+  </data>
+  <data name="HepaSystem" xml:space="preserve">
+    <value>Hepa System</value>
+  </data>
+  <data name="Hrv" xml:space="preserve">
+    <value>Heat Recovery Ventilator</value>
+  </data>
+  <data name="Hst" xml:space="preserve">
+    <value>HST</value>
+  </data>
+  <data name="Hwt" xml:space="preserve">
+    <value>Hot Water Tank</value>
+  </data>
+  <data name="InvalidUserEmail" xml:space="preserve">
+    <value>Invalid user email.</value>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="Kitchen" xml:space="preserve">
+    <value>Kitchen</value>
+  </data>
+  <data name="OntimePassCorrectNowChange" xml:space="preserve">
+    <value>Your on-time password is correct, now please change the password</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="PleaseUseToLoginPortal" xml:space="preserve">
+    <value>Please use it to login the portal</value>
+    <comment>Context: This is your password. Please use it to...</comment>
+  </data>
+  <data name="Plumbing" xml:space="preserve">
+    <value>Plumbing</value>
+  </data>
+  <data name="PorchEnclosure" xml:space="preserve">
+    <value>Porch Enclosure</value>
+  </data>
+  <data name="Roofing" xml:space="preserve">
+    <value>Roofing</value>
+  </data>
+  <data name="SecuritySystem" xml:space="preserve">
+    <value>Security System</value>
+  </data>
+  <data name="Siding" xml:space="preserve">
+    <value>Siding</value>
+  </data>
+  <data name="SignedContract" xml:space="preserve">
+    <value>Signed Contract</value>
+  </data>
+  <data name="SignedInstallationCertificate" xml:space="preserve">
+    <value>Signed Installation Certificate</value>
+  </data>
+  <data name="Sunrooms" xml:space="preserve">
+    <value>Sunrooms</value>
+  </data>
+  <data name="TanklessWaterHeater" xml:space="preserve">
+    <value>Tankless Water Heater</value>
+  </data>
+  <data name="ThirdPartyVerificationCall" xml:space="preserve">
+    <value>Third Party Verification Call</value>
+  </data>
+  <data name="ThisIsYourOnetimePass" xml:space="preserve">
+    <value>This is your one-time password:</value>
+  </data>
+  <data name="ThisIsYourPass" xml:space="preserve">
+    <value>This is your password:</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="UnknownApplicationToLogIn" xml:space="preserve">
+    <value>Unknown application to log in.</value>
+  </data>
+  <data name="UnknownApplicationToRegister" xml:space="preserve">
+    <value>Unknown application to register</value>
+  </data>
+  <data name="UserNamerPasswordIncorrect" xml:space="preserve">
+    <value>The user name or password is incorrect.</value>
+  </data>
+  <data name="VoidPersonalChequeCopy" xml:space="preserve">
+    <value>Copy of Void Personal Cheque</value>
+  </data>
+  <data name="WaterTreatmentSystem" xml:space="preserve">
+    <value>Water Treatment System</value>
+  </data>
+  <data name="Windows" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="YourOneTimePassword" xml:space="preserve">
+    <value>Your one-time password</value>
+  </data>
+  <data name="YourPassword" xml:space="preserve">
+    <value>Your password</value>
+  </data>
+  <data name="ApplicationSubmitted" xml:space="preserve">
+    <value>Application submitted</value>
+  </data>
+  <data name="ClientDataInputted" xml:space="preserve">
+    <value>Client data inputted</value>
+  </data>
+  <data name="Contract" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="CreditCheckApproved" xml:space="preserve">
+    <value>Credit check approved</value>
+  </data>
+  <data name="CreditCheckDeclined" xml:space="preserve">
+    <value>Credit check declined</value>
+  </data>
+  <data name="CreditCheckInitiated" xml:space="preserve">
+    <value>Credit check initiated</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Equipment" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="LoanApplication" xml:space="preserve">
+    <value>Loan</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="RentalApplication" xml:space="preserve">
+    <value>Rental</value>
+  </data>
+  <data name="RentalApplicationHwt" xml:space="preserve">
+    <value>Rental (HWT)</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="SalesRep" xml:space="preserve">
+    <value>SalesRep</value>
+  </data>
+  <data name="SentToAudit" xml:space="preserve">
+    <value>Sent to audit</value>
+  </data>
+  <data name="StartedToFillNewContract" xml:space="preserve">
+    <value>Started to fill new contract</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="IDNotYetGenerated" xml:space="preserve">
+    <value>ID Not yet generated</value>
+  </data>
+  <data name="BusinessPhone" xml:space="preserve">
+    <value>Business phone</value>
+  </data>
+  <data name="CellPhone" xml:space="preserve">
+    <value>Cell phone</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="ContractId" xml:space="preserve">
+    <value>Contract ID</value>
+    <comment>Dealer contract id</comment>
+  </data>
+  <data name="HomePhone" xml:space="preserve">
+    <value>Home phone</value>
+  </data>
+  <data name="InstallationAddress" xml:space="preserve">
+    <value>Installation address</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Customer name</comment>
+  </data>
+  <data name="NewCustomerAppliedForFinancing" xml:space="preserve">
+    <value>New customer applied for financing</value>
+  </data>
+  <data name="PreApproved" xml:space="preserve">
+    <value>Pre-approved</value>
+    <comment>Only text</comment>
+  </data>
+  <data name="SelectedTypeOfService" xml:space="preserve">
+    <value>Selected type of service</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="IfYouHaveQuestionsPleaseContact" xml:space="preserve">
+    <value>If you have any question please contact</value>
+    <comment>Context: If you have any question please contact: One Fine Company</comment>
+  </data>
+  <data name="ThankYouForApplyingForFinancing" xml:space="preserve">
+    <value>Thank you for applying for financing.</value>
+  </data>
+  <data name="WillContactYouSoon" xml:space="preserve">
+    <value>{0} will contact you soon.</value>
+    <comment>Context: One Fine Company will contact you soon. </comment>
+  </data>
+  <data name="YouHaveBeenPreapprovedFor" xml:space="preserve">
+    <value>You have been pre-approved for ${0}.</value>
+    <comment>Context: You have been pre-approved for $15,000.</comment>
+  </data>
+  <data name="YourFinancingApplicationWasSubmitted" xml:space="preserve">
+    <value>Your financing application was successfully submitted.</value>
+  </data>
+  <data name="DealInfo" xml:space="preserve">
+    <value>Deal Info</value>
+  </data>
+  <data name="YouCanViewThisDealHere" xml:space="preserve">
+    <value>You can view this deal here</value>
+  </data>
+  <data name="CommentFromCustomer" xml:space="preserve">
+    <value>Comment from customer</value>
+  </data>
+  <data name="Dealer" xml:space="preserve">
+    <value>Dealer</value>
+  </data>
+  <data name="_10_Saved" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="_11_Quote" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="_12_Submitted" xml:space="preserve">
+    <value>Submitted</value>
+  </data>
+  <data name="_13_Submitted" xml:space="preserve">
+    <value>Submitted </value>
+  </data>
+  <data name="_14_CBRWarnings" xml:space="preserve">
+    <value>CBR Warnings</value>
+  </data>
+  <data name="_16_CBRFailure" xml:space="preserve">
+    <value>CBR Failure</value>
+  </data>
+  <data name="_18_Equipment" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="_19_Submitthroughautomation" xml:space="preserve">
+    <value>Submit through automation</value>
+  </data>
+  <data name="_20_CreditReview" xml:space="preserve">
+    <value>Credit Review</value>
+  </data>
+  <data name="_20_CreditReviewECP" xml:space="preserve">
+    <value>Credit Review (ECP)</value>
+  </data>
+  <data name="_22_MIR" xml:space="preserve">
+    <value>MIR </value>
+  </data>
+  <data name="_22_MIRBlueChip" xml:space="preserve">
+    <value>MIR Blue Chip</value>
+  </data>
+  <data name="_22_MIRNorthstar" xml:space="preserve">
+    <value>MIR Northstar</value>
+  </data>
+  <data name="_22_MoreInfowoemailnotice" xml:space="preserve">
+    <value>More Info (w/o email notice)</value>
+  </data>
+  <data name="_23_MIRNotReceived" xml:space="preserve">
+    <value>MIR Not Received</value>
+  </data>
+  <data name="_24_Re_Submitted" xml:space="preserve">
+    <value>Re-Submitted</value>
+  </data>
+  <data name="_24_Re_SubmittedE" xml:space="preserve">
+    <value>Re-Submitted E</value>
+  </data>
+  <data name="_25_Declined" xml:space="preserve">
+    <value>Declined </value>
+  </data>
+  <data name="_25_DeclinedEnableDeals" xml:space="preserve">
+    <value>Declined Enable Deals</value>
+  </data>
+  <data name="_25_DeclinedNorthstar" xml:space="preserve">
+    <value>Declined Northstar</value>
+  </data>
+  <data name="_25_Declinedwoemailnotice" xml:space="preserve">
+    <value>Declined (wo/email notice)</value>
+  </data>
+  <data name="_26_Pre_Approved15k" xml:space="preserve">
+    <value>Awaiting Enbridge Approval</value>
+  </data>
+  <data name="_26_Pre_ApprovedECP" xml:space="preserve">
+    <value>Awaiting Enbridge Approval</value>
+  </data>
+  <data name="_27_FinalReview_RecommendApproval" xml:space="preserve">
+    <value>Final Review-Recommend Approval</value>
+  </data>
+  <data name="_28_Approved" xml:space="preserve">
+    <value>Approved </value>
+  </data>
+  <data name="_28_Approved15k" xml:space="preserve">
+    <value>Approved $15k</value>
+  </data>
+  <data name="_28_ApprovedEcoEnergy" xml:space="preserve">
+    <value>Approved (Eco Energy)</value>
+  </data>
+  <data name="_28_ApprovedECP" xml:space="preserve">
+    <value>Approved (ECP)</value>
+  </data>
+  <data name="_28_ApprovedEnable" xml:space="preserve">
+    <value>Approved Enable</value>
+  </data>
+  <data name="_28_ApprovedEnbridge" xml:space="preserve">
+    <value>Approved (Enbridge)</value>
+  </data>
+  <data name="_28_ApprovedNorthstar" xml:space="preserve">
+    <value>Approved Northstar</value>
+  </data>
+  <data name="_28_ApprovedNorthstarwoemail" xml:space="preserve">
+    <value>Approved Northstar (w/o email)</value>
+  </data>
+  <data name="_28_ApprovedSecondLook" xml:space="preserve">
+    <value>Approved Second Look</value>
+  </data>
+  <data name="_28_ApprovedUtileCredit" xml:space="preserve">
+    <value>Approved (Utile Credit)</value>
+  </data>
+  <data name="_28_ApprovedVault" xml:space="preserve">
+    <value>Approved Vault</value>
+  </data>
+  <data name="_28_Approvedwoemailnotice" xml:space="preserve">
+    <value>Approved (wo/email notice)</value>
+  </data>
+  <data name="_29_Declinedwouemailnotification" xml:space="preserve">
+    <value>Declined (w/ou email notification)</value>
+  </data>
+  <data name="_29_DWverbalapproval" xml:space="preserve">
+    <value>DW verbal approval</value>
+  </data>
+  <data name="_30_ReadytoDoc" xml:space="preserve">
+    <value>Ready to Doc</value>
+  </data>
+  <data name="_31_DocsOut" xml:space="preserve">
+    <value>Docs Out</value>
+  </data>
+  <data name="_32_DocsReceived" xml:space="preserve">
+    <value>Docs Received</value>
+  </data>
+  <data name="_34_DocsBackIncomplete" xml:space="preserve">
+    <value>Docs Back Incomplete</value>
+  </data>
+  <data name="_35_DeadDeal" xml:space="preserve">
+    <value>Dead Deal</value>
+  </data>
+  <data name="_37_PendingAuditCall" xml:space="preserve">
+    <value>Pending Audit Call</value>
+  </data>
+  <data name="_38_Awaitingdelivery" xml:space="preserve">
+    <value>Awaiting delivery</value>
+  </data>
+  <data name="_40_DealFundingRequested" xml:space="preserve">
+    <value>Deal Funding Requested</value>
+  </data>
+  <data name="_42_ReadyforAudit" xml:space="preserve">
+    <value>Ready for Audit</value>
+  </data>
+  <data name="_46_Funded_Syndicated" xml:space="preserve">
+    <value>Funded-Syndicated</value>
+  </data>
+  <data name="_48_AuditinProgress" xml:space="preserve">
+    <value>Audit in Progress</value>
+  </data>
+  <data name="_49_FundingTomorrow" xml:space="preserve">
+    <value>Funding Tomorrow</value>
+  </data>
+  <data name="_50_AuditedDeficient" xml:space="preserve">
+    <value>Audited Deficient</value>
+  </data>
+  <data name="_51_AuditedAwaitingTPV" xml:space="preserve">
+    <value>Audited Awaiting TPV</value>
+  </data>
+  <data name="_52_TPVConfirmed" xml:space="preserve">
+    <value>TPV Confirmed</value>
+  </data>
+  <data name="_53_TPVInternal" xml:space="preserve">
+    <value>TPV Internal</value>
+  </data>
+  <data name="_84_ExpiredApproval" xml:space="preserve">
+    <value>Expired Approval</value>
+  </data>
+  <data name="_85_CustomerChangedMind" xml:space="preserve">
+    <value>Customer Changed Mind</value>
+  </data>
+  <data name="_86_Cancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="_90_MasterLineofCreditapproval" xml:space="preserve">
+    <value>Master Line of Credit approval</value>
+  </data>
+  <data name="_91_Terminated" xml:space="preserve">
+    <value>Terminated</value>
+  </data>
+  <data name="_ApprovedBlueChip" xml:space="preserve">
+    <value>Approved Blue Chip </value>
+  </data>
+  <data name="_Booked" xml:space="preserve">
+    <value>Booked</value>
+  </data>
+  <data name="_Cancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="_DeclinedBlueChip" xml:space="preserve">
+    <value>Declined Blue Chip</value>
+  </data>
+  <data name="_Exported" xml:space="preserve">
+    <value>Exported</value>
+  </data>
+  <data name="_PreApproved20K" xml:space="preserve">
+    <value>Pre Approved 20 K</value>
+  </data>
+  <data name="_PreApproved5K" xml:space="preserve">
+    <value>Pre Approved 5 K</value>
+  </data>
+  <data name="_Pre_Approved" xml:space="preserve">
+    <value>Pre-Approved </value>
+  </data>
+  <data name="_Pre_Approved10K" xml:space="preserve">
+    <value>Approved 10 K</value>
+  </data>
+  <data name="_S_Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="_S_Creditreview" xml:space="preserve">
+    <value>Credit review</value>
+  </data>
+  <data name="_S_Dead" xml:space="preserve">
+    <value>Dead</value>
+  </data>
+  <data name="_S_Declined" xml:space="preserve">
+    <value>Declined</value>
+  </data>
+  <data name="_S_Docsin" xml:space="preserve">
+    <value>Docs in</value>
+  </data>
+  <data name="_S_Docsout" xml:space="preserve">
+    <value>Docs out</value>
+  </data>
+  <data name="_S_Funded" xml:space="preserve">
+    <value>Funded</value>
+  </data>
+  <data name="_S_Fundingrequested" xml:space="preserve">
+    <value>Funding requested</value>
+  </data>
+  <data name="_S_Moreinformation" xml:space="preserve">
+    <value>More information</value>
+  </data>
+  <data name="_S_Submitted" xml:space="preserve">
+    <value>Submitted</value>
+  </data>
+  <data name="Deferral" xml:space="preserve">
+    <value>Deferral</value>
+  </data>
+  <data name="FixedRate" xml:space="preserve">
+    <value>Fixed Rate</value>
+  </data>
+  <data name="NoInterest" xml:space="preserve">
+    <value>No Interest</value>
+  </data>
+  <data name="Congratulations" xml:space="preserve">
+    <value>Congratulations</value>
+  </data>
+  <data name="Hi" xml:space="preserve">
+    <value>Hi</value>
+  </data>
+  <data name="InCaseOfQuestionsPleaseContact" xml:space="preserve">
+    <value>In case of questions please contact</value>
+  </data>
+  <data name="OnThe" xml:space="preserve">
+    <value>on the</value>
+  </data>
+  <data name="PleaseSignInUsingYourEmailAddressAndFollowingPassword" xml:space="preserve">
+    <value>Please sign in using your email address and following password</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="ThanksForYourInterestInHomeImprovementService" xml:space="preserve">
+    <value>Thanks for your interest in home improvement service</value>
+  </data>
+  <data name="WeAreNowLookingForheBest" xml:space="preserve">
+    <value>We’re now looking for the best home professional in your area - selected contractor will contact you soon.</value>
+  </data>
+  <data name="YouCanViewYourAccountOn" xml:space="preserve">
+    <value>You can view your account on</value>
+  </data>
+  <data name="YouHaveBeen" xml:space="preserve">
+    <value>You have been</value>
+  </data>
+  <data name="WeFoundHomeProfessionalForYour" xml:space="preserve">
+    <value>We found home professional for your home improvement project</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>for</value>
+  </data>
+  <data name="IfYouHaveQuestionsToHomeProfessionalPleaseContact" xml:space="preserve">
+    <value>If you have any question to home professional please contact</value>
+  </data>
+  <data name="InCaseRemarksAboutSelectedHomeProfessionalsPleaseContact" xml:space="preserve">
+    <value>In case remarks about selected home professionals please contact</value>
+  </data>
+  <data name="Mail" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="WeAreLookingForTheBestProfessionalForYourHomeImprovementProject" xml:space="preserve">
+    <value>We’re looking for the best professional for your home improvement project</value>
+  </data>
+  <data name="WillContactYouSoonText" xml:space="preserve">
+    <value>will contact you soon</value>
+  </data>
+  <data name="WeFoundHomeProfessionalForYourHomeImprovementProject" xml:space="preserve">
+    <value>We found home professional for your home improvement project</value>
+  </data>
+  <data name="Client" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="ClientsComment" xml:space="preserve">
+    <value>Client’s comment</value>
+  </data>
+  <data name="ContactInformation" xml:space="preserve">
+    <value>Contact information</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Email address</value>
+  </data>
+  <data name="HomeImprovementType" xml:space="preserve">
+    <value>Home improvement type</value>
+  </data>
+  <data name="MobilePhone" xml:space="preserve">
+    <value>Mobile phone</value>
+  </data>
+  <data name="NoDealersMatchingCustomerLead" xml:space="preserve">
+    <value>No dealers matching customer lead (type: {0}, postal code: {1})</value>
+  </data>
+  <data name="PreferredContactMethod" xml:space="preserve">
+    <value>Preferred contact method</value>
+  </data>
+  <data name="ThereAreNoDealersMatchingFollowingLead" xml:space="preserve">
+    <value>There are no dealers matching following lead</value>
+  </data>
+  <data name="TransactionId" xml:space="preserve">
+    <value>Transaction ID</value>
+  </data>
+  <data name="FollowingLeadHasNotBeenAcceptedByAnyDealerFor12h" xml:space="preserve">
+    <value>Following lead has not been accepted by any dealer for {0}h</value>
+  </data>
+  <data name="CustomerLeadHasNotBeenAcceptedByAnyDealerFor" xml:space="preserve">
+    <value>Customer lead has not been accepted by any dealer for {0}h (type: {1}, postal code: {2})</value>
+  </data>
+  <data name="UnfortunatelyThisLeadIsNoLongerAvailable" xml:space="preserve">
+    <value>Unfortunately this lead is no longer available</value>
+  </data>
+  <data name="AirFiltration" xml:space="preserve">
+    <value>Air Filtration</value>
+  </data>
+  <data name="HotTub" xml:space="preserve">
+    <value>Hot Tub</value>
+  </data>
+  <data name="Spa" xml:space="preserve">
+    <value>Spa</value>
+  </data>
+  <data name="VerticalFanHRVCombo" xml:space="preserve">
+    <value>Vertical Fan/HRV Combo</value>
+  </data>
+  <data name="WellPump" xml:space="preserve">
+    <value>Well Pump</value>
+  </data>
+  <data name="_Pre_Approved15K" xml:space="preserve">
+    <value>Pre Approved 15 K</value>
+  </data>
+  <data name="Broker" xml:space="preserve">
+    <value>Broker</value>
+  </data>
+  <data name="ConsumerDirect" xml:space="preserve">
+    <value>Consumer direct</value>
+  </data>
+  <data name="Distributor" xml:space="preserve">
+    <value>Distributor</value>
+  </data>
+  <data name="DoorToDoor" xml:space="preserve">
+    <value>Door to door sales</value>
+  </data>
+  <data name="Financing" xml:space="preserve">
+    <value>Financing</value>
+  </data>
+  <data name="FinancingLeasing" xml:space="preserve">
+    <value>Financing + Leasing</value>
+  </data>
+  <data name="Incorporated" xml:space="preserve">
+    <value>Incorporated</value>
+  </data>
+  <data name="Independent" xml:space="preserve">
+    <value>Independent</value>
+  </data>
+  <data name="Leasing" xml:space="preserve">
+    <value>Leasing</value>
+  </data>
+  <data name="LessThanOneYear" xml:space="preserve">
+    <value>less than 1 year</value>
+  </data>
+  <data name="Limited" xml:space="preserve">
+    <value>Limited</value>
+  </data>
+  <data name="LocalAds" xml:space="preserve">
+    <value>Local Advertising</value>
+  </data>
+  <data name="LookingForSecond" xml:space="preserve">
+    <value>Looking for secondary</value>
+  </data>
+  <data name="MoreThanTwoYears" xml:space="preserve">
+    <value>more than 2 years</value>
+  </data>
+  <data name="NoCurrentFinancing" xml:space="preserve">
+    <value>No current financing solution</value>
+  </data>
+  <data name="OEM" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="OneToTwoYears" xml:space="preserve">
+    <value>1-2 years</value>
+  </data>
+  <data name="Partnership" xml:space="preserve">
+    <value>Partnership</value>
+  </data>
+  <data name="Referrals" xml:space="preserve">
+    <value>Referrals</value>
+  </data>
+  <data name="SoleProp" xml:space="preserve">
+    <value>Sole Prop</value>
+  </data>
+  <data name="TenOrMore" xml:space="preserve">
+    <value>10 or more</value>
+  </data>
+  <data name="TradeShows" xml:space="preserve">
+    <value>Trade Shows</value>
+  </data>
+  <data name="UnhappyCurrentFinancing" xml:space="preserve">
+    <value>Unhappy with current solution</value>
+  </data>
+  <data name="ProofOfInsurance" xml:space="preserve">
+    <value>Proof of Insurance</value>
+  </data>
+  <data name="Pool" xml:space="preserve">
+    <value>Pool</value>
+  </data>
+  <data name="Suite" xml:space="preserve">
+    <value>Suite</value>
+  </data>
+  <data name="DealerCancelledEsign" xml:space="preserve">
+    <value>Dealer cancelled eSignature process</value>
+  </data>
+  <data name="_25_DeclinedBlueChip" xml:space="preserve">
+    <value>Declined Blue Chip</value>
+  </data>
+  <data name="_26_Pre_Approved" xml:space="preserve">
+    <value>Awaiting Enbridge Approval</value>
+  </data>
+  <data name="_28_ApprovedBlueChip" xml:space="preserve">
+    <value>Approved Blue Chip</value>
+  </data>
+  <data name="ByidCard" xml:space="preserve">
+    <value>BYID card</value>
+  </data>
+  <data name="CanadianBlindIdentificationCard" xml:space="preserve">
+    <value>Canadian National Institute for the Blind identification card</value>
+  </data>
+  <data name="CanadianCitizenshipCard" xml:space="preserve">
+    <value>Canadian citizenship card</value>
+  </data>
+  <data name="CanadianFamilyMilitaryCard" xml:space="preserve">
+    <value>Canadian Military Family Identification Card</value>
+  </data>
+  <data name="CanadianMilitaryCard" xml:space="preserve">
+    <value>Canadian Military Employment Card</value>
+  </data>
+  <data name="CanadianPassport" xml:space="preserve">
+    <value>Canadian or foreign passport</value>
+  </data>
+  <data name="CertificateInidanStatus" xml:space="preserve">
+    <value>Certificate of Indian Status</value>
+  </data>
+  <data name="DriverLicense" xml:space="preserve">
+    <value>Driver’s license</value>
+  </data>
+  <data name="PalCard" xml:space="preserve">
+    <value>Possession and Acquisition License (PAL card)</value>
+  </data>
+  <data name="PermanentResidencyCard" xml:space="preserve">
+    <value>Permanent Residency Card</value>
+  </data>
+  <data name="Employed" xml:space="preserve">
+    <value>Employed</value>
+  </data>
+  <data name="Retired" xml:space="preserve">
+    <value>Retired</value>
+  </data>
+  <data name="SelfEmployed" xml:space="preserve">
+    <value>Self employed</value>
+  </data>
+  <data name="Unemployed" xml:space="preserve">
+    <value>Unemployed</value>
+  </data>
+  <data name="Annual" xml:space="preserve">
+    <value>Annual</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>Full time</value>
+  </data>
+  <data name="HourlyRate" xml:space="preserve">
+    <value>Hourly rate</value>
+  </data>
+  <data name="PartTime" xml:space="preserve">
+    <value>Part time</value>
+  </data>
+  <data name="SalaryIncome" xml:space="preserve">
+    <value>Salary/Income</value>
+  </data>
+  <data name="ChequeBankPAP" xml:space="preserve">
+    <value>Void Cheque or Bank PAD Authorization Letter</value>
+  </data>
+  <data name="CreditApplication" xml:space="preserve">
+    <value>Credit Application</value>
+  </data>
+  <data name="IncomeVerification" xml:space="preserve">
+    <value>Income verification</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="CostOfBorrowing" xml:space="preserve">
+    <value>Cost of Borrowing</value>
+  </data>
+  <data name="CustomerFirstName" xml:space="preserve">
+    <value>Customer First Name</value>
+  </data>
+  <data name="CustomerLastName" xml:space="preserve">
+    <value>Customer Last Name</value>
+  </data>
+  <data name="DealerInvoiceAmount" xml:space="preserve">
+    <value>Dealer Invoice Amount</value>
+  </data>
+  <data name="DownPayment" xml:space="preserve">
+    <value>Down Payment</value>
+  </data>
+  <data name="MonthlyPayment" xml:space="preserve">
+    <value>Monthly Payment</value>
+  </data>
+  <data name="PaymentType" xml:space="preserve">
+    <value>Payment Type</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="TotalAmountFinanced" xml:space="preserve">
+    <value>Total Amount Financed</value>
+  </data>
+  <data name="TotalObligation" xml:space="preserve">
+    <value>Total Obligation</value>
+  </data>
+  <data name="_CVCConfirmed" xml:space="preserve">
+    <value>CVC Confirmed</value>
+  </data>
+  <data name="_CVCWaitingtoFund" xml:space="preserve">
+    <value>CVC Waiting to Fund</value>
+  </data>
+  <data name="VoidChequeBankPAPAuthorizationLetter" xml:space="preserve">
+    <value>Void Cheque Bank PAD Authorization Letter</value>
+  </data>
+  <data name="_ConditionalApproval" xml:space="preserve">
+    <value>Conditional Approval</value>
+  </data>
+  <data name="ContractChangedCancelledEsign" xml:space="preserve">
+    <value>Contract was changed</value>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="EqualPayments" xml:space="preserve">
+    <value>0% Equal Payments</value>
+  </data>
+  <data name="StandardRate" xml:space="preserve">
+    <value>Standard Rate</value>
+  </data>
+  <data name="LeaseApplication" xml:space="preserve">
+    <value>Lease</value>
+  </data>
+  <data name="LeaseApplicationHwt" xml:space="preserve">
+    <value>Lease (HWT)</value>
+  </data>
+  <data name="Prime" xml:space="preserve">
+    <value>Prime</value>
+  </data>
+  <data name="PrimePlus" xml:space="preserve">
+    <value>Prime Plus</value>
+  </data>
+  <data name="SuperPrime" xml:space="preserve">
+    <value>Super Prime</value>
+  </data>
+  <data name="CombiBoiler" xml:space="preserve">
+    <value>Combi Boiler</value>
+  </data>
+  <data name="WaterFilter" xml:space="preserve">
+    <value>Water Filter</value>
+  </data>
+  <data name="WaterFilterWaterSoftener" xml:space="preserve">
+    <value>Water Filter &amp; Water Softener</value>
+  </data>
+  <data name="WaterSoftener" xml:space="preserve">
+    <value>Water Softener</value>
+  </data>
+  <data name="HotWaterHeaterCV" xml:space="preserve">
+    <value>Hot Water Heater (CV)</value>
+  </data>
+  <data name="HotWaterHeaterPV" xml:space="preserve">
+    <value>Hot Water Heater (PV)</value>
+  </data>
+  <data name="HumidifierWithFurnace" xml:space="preserve">
+    <value>Humidifier with Furnace</value>
+  </data>
+  <data name="MediaFilterNSAU" xml:space="preserve">
+    <value>Media Filter (no stand alone units)</value>
+  </data>
+  <data name="ReverseOsmosisNSAU" xml:space="preserve">
+    <value>Reverse Osmosis (no stand alone units)</value>
+  </data>
+  <data name="TwoPiecesofEquipmentWSCF" xml:space="preserve">
+    <value>2 Pieces of Equipment (water softener/carbon filter)</value>
+  </data>
+  <data name="WholeHomeCombo" xml:space="preserve">
+    <value>Whole Home Combo</value>
+  </data>
+  <data name="DealerProfileUpdate" xml:space="preserve">
+    <value>Dealer Profile Update</value>
+  </data>
+  <data name="FundedDeals" xml:space="preserve">
+    <value>Funded Deals</value>
+  </data>
+  <data name="PendingDeals" xml:space="preserve">
+    <value>Pending Deals</value>
+  </data>
+  <data name="PortalInquiries" xml:space="preserve">
+    <value>Portal Inquiries</value>
+  </data>
+  <data name="ProgramInquiries" xml:space="preserve">
+    <value>Program Inquiries</value>
+  </data>
+</root>

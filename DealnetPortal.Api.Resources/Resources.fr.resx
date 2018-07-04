@@ -1,0 +1,1072 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContractWasDeclined" xml:space="preserve">
+    <value>Le contrat {0} a été refusé</value>
+  </data>
+  <data name="ContractWasSuccessfullyChanged" xml:space="preserve">
+    <value>Le contrat {0} a été modifié avec succès</value>
+  </data>
+  <data name="ContractWasSuccessfullySubmitted" xml:space="preserve">
+    <value>Le contrat {0} a été soumis avec succès</value>
+  </data>
+  <data name="HomeOwnersName" xml:space="preserve">
+    <value>Nom du propriétaire:</value>
+  </data>
+  <data name="PleaseSignAgreement" xml:space="preserve">
+    <value>Veuillez signer l’entente</value>
+  </data>
+  <data name="TypeOfApplication" xml:space="preserve">
+    <value>Type de demande :</value>
+  </data>
+  <data name="AirConditioner" xml:space="preserve">
+    <value>Climatiseur</value>
+  </data>
+  <data name="AirHandler" xml:space="preserve">
+    <value>Centrale de traitement de l’air</value>
+  </data>
+  <data name="AndThenYouPromptedToChangePass" xml:space="preserve">
+    <value>puis vous serez invité à modifier le mot de passe.</value>
+  </data>
+  <data name="BasementRepair" xml:space="preserve">
+    <value>Réparations du sous-sol</value>
+  </data>
+  <data name="Bathroom" xml:space="preserve">
+    <value>Salle de bains</value>
+  </data>
+  <data name="Boiler" xml:space="preserve">
+    <value>Chaudière</value>
+  </data>
+  <data name="BusinessPhone" xml:space="preserve">
+    <value>Numéro de téléphone au travail</value>
+  </data>
+  <data name="CellPhone" xml:space="preserve">
+    <value>Téléphone cellulaire</value>
+  </data>
+  <data name="DealInfo" xml:space="preserve">
+    <value>Info sur la transaction</value>
+  </data>
+  <data name="Doors" xml:space="preserve">
+    <value>Portes</value>
+  </data>
+  <data name="EexternalLoginAlreadyAssociated" xml:space="preserve">
+    <value>La connexion externe est déjà associée à un compte.</value>
+  </data>
+  <data name="ErrorOnRegisterUser" xml:space="preserve">
+    <value>Erreur lors de l’enregistrement de l’utilisateur</value>
+  </data>
+  <data name="ExtendedWarrantyForm" xml:space="preserve">
+    <value>Formulaire de prolongation de la garantie</value>
+  </data>
+  <data name="ExternalLoginFailure" xml:space="preserve">
+    <value>Ouverture de session externe échouée.</value>
+  </data>
+  <data name="ExternalServiceUnavailable" xml:space="preserve">
+    <value>Le service externe n’est pas disponible</value>
+  </data>
+  <data name="Fireplace" xml:space="preserve">
+    <value>Foyer</value>
+  </data>
+  <data name="Flooring" xml:space="preserve">
+    <value>Plancher</value>
+  </data>
+  <data name="Furnace" xml:space="preserve">
+    <value>Fournaise</value>
+  </data>
+  <data name="Gst" xml:space="preserve">
+    <value>TPS</value>
+  </data>
+  <data name="GstPst" xml:space="preserve">
+    <value>TPS + TVP</value>
+  </data>
+  <data name="GstQst" xml:space="preserve">
+    <value>TPS + TVQ</value>
+  </data>
+  <data name="HeatPump" xml:space="preserve">
+    <value>Thermopompe</value>
+  </data>
+  <data name="HepaSystem" xml:space="preserve">
+    <value>Système HEPA</value>
+  </data>
+  <data name="HomePhone" xml:space="preserve">
+    <value>Numéro de téléphone résidentiel</value>
+  </data>
+  <data name="Hrv" xml:space="preserve">
+    <value>Ventilateur de récupération de chaleur</value>
+  </data>
+  <data name="Hst" xml:space="preserve">
+    <value>TVH</value>
+  </data>
+  <data name="Hwt" xml:space="preserve">
+    <value>Réservoir d'eau chaude</value>
+  </data>
+  <data name="InstallationAddress" xml:space="preserve">
+    <value>Adresse de l’installation</value>
+  </data>
+  <data name="InvalidUserEmail" xml:space="preserve">
+    <value>Courriel de l’utilisateur invalide.</value>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Facture</value>
+  </data>
+  <data name="Kitchen" xml:space="preserve">
+    <value>Cuisine</value>
+  </data>
+  <data name="OntimePassCorrectNowChange" xml:space="preserve">
+    <value>Votre mot de passe à usage unique est correct; maintenant, veuillez modifier votre mot de passe</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Autre</value>
+  </data>
+  <data name="PleaseUseToLoginPortal" xml:space="preserve">
+    <value>Veuillez l’utiliser pour ouvrir une session sur le portail</value>
+    <comment>Context: This is your password. Please use it to...</comment>
+  </data>
+  <data name="Plumbing" xml:space="preserve">
+    <value>Plomberie</value>
+  </data>
+  <data name="PorchEnclosure" xml:space="preserve">
+    <value>Véranda</value>
+  </data>
+  <data name="Roofing" xml:space="preserve">
+    <value>Toiture</value>
+  </data>
+  <data name="SecuritySystem" xml:space="preserve">
+    <value>Système de sécurité</value>
+  </data>
+  <data name="Siding" xml:space="preserve">
+    <value>Revêtement</value>
+  </data>
+  <data name="SignedContract" xml:space="preserve">
+    <value>Contrat signé</value>
+  </data>
+  <data name="SignedInstallationCertificate" xml:space="preserve">
+    <value>Certificat d’installation signé</value>
+  </data>
+  <data name="Sunrooms" xml:space="preserve">
+    <value>Solariums</value>
+  </data>
+  <data name="TanklessWaterHeater" xml:space="preserve">
+    <value>Chauffe-eau sans réservoir</value>
+  </data>
+  <data name="ThirdPartyVerificationCall" xml:space="preserve">
+    <value>Visite de vérification par un tiers</value>
+  </data>
+  <data name="ThisIsYourOnetimePass" xml:space="preserve">
+    <value>Voici votre mot de passe à usage unique :</value>
+  </data>
+  <data name="ThisIsYourPass" xml:space="preserve">
+    <value>Voici votre mot de passe :</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Inconnu</value>
+  </data>
+  <data name="UnknownApplicationToLogIn" xml:space="preserve">
+    <value>Demande d’ouverture de session inconnue.</value>
+  </data>
+  <data name="UnknownApplicationToRegister" xml:space="preserve">
+    <value>Demande d’enregistrement inconnue</value>
+  </data>
+  <data name="UserNamerPasswordIncorrect" xml:space="preserve">
+    <value>Le nom ou le mot de passe de l’utilisateur est incorrect.</value>
+  </data>
+  <data name="VoidPersonalChequeCopy" xml:space="preserve">
+    <value>Copie du chèque personnel annulé</value>
+  </data>
+  <data name="WaterTreatmentSystem" xml:space="preserve">
+    <value>Système de traitement de l’eau</value>
+  </data>
+  <data name="Windows" xml:space="preserve">
+    <value>Fenêtres</value>
+  </data>
+  <data name="YourOneTimePassword" xml:space="preserve">
+    <value>Voici votre mot de passe à usage unique</value>
+  </data>
+  <data name="YourPassword" xml:space="preserve">
+    <value>Votre mot de passe</value>
+  </data>
+  <data name="ApplicationSubmitted" xml:space="preserve">
+    <value>Demande soumises</value>
+  </data>
+  <data name="ClientDataInputted" xml:space="preserve">
+    <value>Données client saisies</value>
+  </data>
+  <data name="Contract" xml:space="preserve">
+    <value>Contrat</value>
+  </data>
+  <data name="CreditCheckApproved" xml:space="preserve">
+    <value>Credit check approved</value>
+  </data>
+  <data name="CreditCheckDeclined" xml:space="preserve">
+    <value>Vérification du crédit refusée</value>
+  </data>
+  <data name="CreditCheckInitiated" xml:space="preserve">
+    <value>Vérification du crédit amorcée</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Adresse Courriel</value>
+  </data>
+  <data name="Equipment" xml:space="preserve">
+    <value>Équipement</value>
+  </data>
+  <data name="LoanApplication" xml:space="preserve">
+    <value>Prêt</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Téléphone</value>
+  </data>
+  <data name="RentalApplication" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="RentalApplicationHwt" xml:space="preserve">
+    <value>Location (HWT)</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Rapports</value>
+  </data>
+  <data name="SalesRep" xml:space="preserve">
+    <value>Représentant</value>
+  </data>
+  <data name="SentToAudit" xml:space="preserve">
+    <value>Envoyer à la vérification</value>
+  </data>
+  <data name="StartedToFillNewContract" xml:space="preserve">
+    <value>Le contrat a commencé à être rempli</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>État</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="ThankYouForApplyingForFinancing" xml:space="preserve">
+    <value>Merci d’avoir effectué une demande de financement.</value>
+  </data>
+  <data name="YourFinancingApplicationWasSubmitted" xml:space="preserve">
+    <value>Votre demande de financement a été soumise.</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Télécopieur</value>
+  </data>
+  <data name="YouHaveBeenPreapprovedFor" xml:space="preserve">
+    <value>Vous avez été pré-approuvé pour un montant de {0} $.</value>
+    <comment>Context: You have been pre-approved for $15,000.</comment>
+  </data>
+  <data name="WillContactYouSoon" xml:space="preserve">
+    <value>{0} communiquera avec vous prochainement.</value>
+    <comment>Context: One Fine Company will contact you soon. </comment>
+  </data>
+  <data name="IfYouHaveQuestionsPleaseContact" xml:space="preserve">
+    <value>Si vous avez des questions, veuillez communiquer avec</value>
+  </data>
+  <data name="DealerSalesAgent" xml:space="preserve">
+    <value>Marchand ou agent de vente</value>
+  </data>
+  <data name="NewCustomerAppliedForFinancing" xml:space="preserve">
+    <value>Nouveau client ayant fait une demande de financement</value>
+  </data>
+  <data name="SelectedTypeOfService" xml:space="preserve">
+    <value>Type de services choisi</value>
+  </data>
+  <data name="IDNotYetGenerated" xml:space="preserve">
+    <value>ID pas encore généré</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Commentaires</value>
+  </data>
+  <data name="ContractId" xml:space="preserve">
+    <value>ID du contrat</value>
+    <comment>Dealer contract id</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+    <comment>Customer name</comment>
+  </data>
+  <data name="PreApproved" xml:space="preserve">
+    <value>Préapprouvé</value>
+    <comment>Only text</comment>
+  </data>
+  <data name="YouCanViewThisDealHere" xml:space="preserve">
+    <value>Vous pouvez consulter cette transaction ici</value>
+  </data>
+  <data name="Dealer" xml:space="preserve">
+    <value>Marchand</value>
+  </data>
+  <data name="Spa" xml:space="preserve">
+    <value>Spa</value>
+  </data>
+  <data name="WellPump" xml:space="preserve">
+    <value>Pompe de puits</value>
+  </data>
+  <data name="AirFiltration" xml:space="preserve">
+    <value>Filtration d’air</value>
+  </data>
+  <data name="HotTub" xml:space="preserve">
+    <value>Cuve thermale</value>
+  </data>
+  <data name="VerticalFanHRVCombo" xml:space="preserve">
+    <value>Combo ventilateur vertical et ventilateur-récupérateur de chaleur</value>
+  </data>
+  <data name="Pool" xml:space="preserve">
+    <value>Piscines</value>
+  </data>
+  <data name="Broker" xml:space="preserve">
+    <value>Marchand</value>
+  </data>
+  <data name="Client" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="ClientsComment" xml:space="preserve">
+    <value>Commentaire du client</value>
+  </data>
+  <data name="CommentFromCustomer" xml:space="preserve">
+    <value>Commentaire du client</value>
+  </data>
+  <data name="Congratulations" xml:space="preserve">
+    <value>Félicitations</value>
+  </data>
+  <data name="ConsumerDirect" xml:space="preserve">
+    <value>Directement au consommateur</value>
+  </data>
+  <data name="ContactInformation" xml:space="preserve">
+    <value>Coordonnées</value>
+  </data>
+  <data name="CustomerLeadHasNotBeenAcceptedByAnyDealerFor" xml:space="preserve">
+    <value>La piste de client n’a été acceptée par aucun détaillant pour {0}h (type : {1},  code postal : {2})</value>
+  </data>
+  <data name="Deferral" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Distributor" xml:space="preserve">
+    <value>Distributeur</value>
+  </data>
+  <data name="DoorToDoor" xml:space="preserve">
+    <value>Ventes de porte à porte</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Adresse de courriel</value>
+  </data>
+  <data name="Financing" xml:space="preserve">
+    <value>Financement</value>
+  </data>
+  <data name="FinancingLeasing" xml:space="preserve">
+    <value>Financement + location</value>
+  </data>
+  <data name="FixedRate" xml:space="preserve">
+    <value>Taux fixe</value>
+  </data>
+  <data name="FollowingLeadHasNotBeenAcceptedByAnyDealerFor12h" xml:space="preserve">
+    <value>La piste suivante n’a été acceptée par aucun détaillant pour {0}h</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>pour</value>
+  </data>
+  <data name="Hi" xml:space="preserve">
+    <value>Bonjour</value>
+  </data>
+  <data name="HomeImprovementType" xml:space="preserve">
+    <value>Type de rénovations résidentielles</value>
+  </data>
+  <data name="IfYouHaveQuestionsToHomeProfessionalPleaseContact" xml:space="preserve">
+    <value>Si vous avez des questions pour le professionnel en rénovations, veuillez communiquer avec</value>
+  </data>
+  <data name="InCaseOfQuestionsPleaseContact" xml:space="preserve">
+    <value>Si vous avez des questions, veuillez communiquer avec</value>
+  </data>
+  <data name="InCaseRemarksAboutSelectedHomeProfessionalsPleaseContact" xml:space="preserve">
+    <value>Si vous avez des commentaires au sujet des professionnels en rénovation sélectionnés, veuillez communiquer avec</value>
+  </data>
+  <data name="Incorporated" xml:space="preserve">
+    <value>Constitué</value>
+  </data>
+  <data name="Independent" xml:space="preserve">
+    <value>Indépendant</value>
+  </data>
+  <data name="Leasing" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="LessThanOneYear" xml:space="preserve">
+    <value>Moins d’un an</value>
+  </data>
+  <data name="Limited" xml:space="preserve">
+    <value>Limité</value>
+  </data>
+  <data name="LocalAds" xml:space="preserve">
+    <value>Publicité locale</value>
+  </data>
+  <data name="LookingForSecond" xml:space="preserve">
+    <value>Recherche pour secondaire</value>
+  </data>
+  <data name="Mail" xml:space="preserve">
+    <value>Courriel</value>
+  </data>
+  <data name="MobilePhone" xml:space="preserve">
+    <value>Téléphone cellulaire</value>
+  </data>
+  <data name="MoreThanTwoYears" xml:space="preserve">
+    <value>Plus de 2 ans</value>
+  </data>
+  <data name="NoCurrentFinancing" xml:space="preserve">
+    <value>Aucune solution de financement actuelle</value>
+  </data>
+  <data name="NoDealersMatchingCustomerLead" xml:space="preserve">
+    <value>Aucun détaillant ne correspond à la piste du client (type : {0}, code postal : {1})</value>
+  </data>
+  <data name="NoInterest" xml:space="preserve">
+    <value>Aucun intérêt</value>
+  </data>
+  <data name="OEM" xml:space="preserve">
+    <value>Fabricant d’équipement d’origine</value>
+  </data>
+  <data name="OneToTwoYears" xml:space="preserve">
+    <value>1 à 2 ans</value>
+  </data>
+  <data name="OnThe" xml:space="preserve">
+    <value>sur le</value>
+  </data>
+  <data name="Partnership" xml:space="preserve">
+    <value>Société de personnes</value>
+  </data>
+  <data name="PleaseSignInUsingYourEmailAddressAndFollowingPassword" xml:space="preserve">
+    <value>Veuillez ouvrir une session en utilisant votre adresse de courriel et le mot de passe suivant</value>
+  </data>
+  <data name="PreferredContactMethod" xml:space="preserve">
+    <value>Mode de communication privilégié</value>
+  </data>
+  <data name="ProofOfInsurance" xml:space="preserve">
+    <value>Preuve d’assurance</value>
+  </data>
+  <data name="Referrals" xml:space="preserve">
+    <value>Recommandations</value>
+  </data>
+  <data name="SoleProp" xml:space="preserve">
+    <value>Propriétaire unique</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Soutien</value>
+  </data>
+  <data name="TenOrMore" xml:space="preserve">
+    <value>10 ou plus</value>
+  </data>
+  <data name="ThanksForYourInterestInHomeImprovementService" xml:space="preserve">
+    <value>Merci de votre intérêt envers le service de rénovation résidentielle</value>
+  </data>
+  <data name="ThereAreNoDealersMatchingFollowingLead" xml:space="preserve">
+    <value>Aucun détaillant ne correspond à la piste suivante</value>
+  </data>
+  <data name="TradeShows" xml:space="preserve">
+    <value>Salons commerciaux</value>
+  </data>
+  <data name="TransactionId" xml:space="preserve">
+    <value>ID de transaction</value>
+  </data>
+  <data name="UnfortunatelyThisLeadIsNoLongerAvailable" xml:space="preserve">
+    <value>Malheureusement, cette piste n’est plus disponible</value>
+  </data>
+  <data name="UnhappyCurrentFinancing" xml:space="preserve">
+    <value>Insatisfait de la solution actuelle</value>
+  </data>
+  <data name="WeAreLookingForTheBestProfessionalForYourHomeImprovementProject" xml:space="preserve">
+    <value>Nous recherchons le meilleur professionnel pour votre projet de rénovation résidentielle</value>
+  </data>
+  <data name="WeAreNowLookingForheBest" xml:space="preserve">
+    <value>Nous recherchons maintenant le meilleur professionnel dans votre région. L’entrepreneur sélectionné communiquera avec vous prochainement.</value>
+  </data>
+  <data name="WeFoundHomeProfessionalForYour" xml:space="preserve">
+    <value>Nous avons trouvé un professionnel pour votre projet de rénovation résidentielle</value>
+  </data>
+  <data name="WeFoundHomeProfessionalForYourHomeImprovementProject" xml:space="preserve">
+    <value>Nous avons trouvé un professionnel pour votre projet de rénovation résidentielle</value>
+  </data>
+  <data name="WillContactYouSoonText" xml:space="preserve">
+    <value>communiquera avec vous prochainement</value>
+  </data>
+  <data name="YouCanViewYourAccountOn" xml:space="preserve">
+    <value>Vous pouvez voir votre compte sur</value>
+  </data>
+  <data name="YouHaveBeen" xml:space="preserve">
+    <value>Vous avez été</value>
+  </data>
+  <data name="_10_Saved" xml:space="preserve">
+    <value>Enregistré</value>
+  </data>
+  <data name="_11_Quote" xml:space="preserve">
+    <value>Devis</value>
+  </data>
+  <data name="_12_Submitted" xml:space="preserve">
+    <value>Soumis</value>
+  </data>
+  <data name="_13_Submitted" xml:space="preserve">
+    <value>Soumis </value>
+  </data>
+  <data name="_14_CBRWarnings" xml:space="preserve">
+    <value>Avertissements CBR</value>
+  </data>
+  <data name="_16_CBRFailure" xml:space="preserve">
+    <value>Échec CBR</value>
+  </data>
+  <data name="_18_Equipment" xml:space="preserve">
+    <value>Équipement</value>
+  </data>
+  <data name="_19_Submitthroughautomation" xml:space="preserve">
+    <value>Soumis par l’automatisation</value>
+  </data>
+  <data name="_20_CreditReview" xml:space="preserve">
+    <value>Évaluation de crédit</value>
+  </data>
+  <data name="_20_CreditReviewECP" xml:space="preserve">
+    <value>Évaluation de crédit (ECP)</value>
+  </data>
+  <data name="_22_MIR" xml:space="preserve">
+    <value>MIR </value>
+  </data>
+  <data name="_22_MIRBlueChip" xml:space="preserve">
+    <value>MIR Blue Chip</value>
+  </data>
+  <data name="_22_MIRNorthstar" xml:space="preserve">
+    <value>MIR Northstar</value>
+  </data>
+  <data name="_22_MoreInfowoemailnotice" xml:space="preserve">
+    <value>Renseignements supplémentaires (sans avis par courriel)</value>
+  </data>
+  <data name="_23_MIRNotReceived" xml:space="preserve">
+    <value>MIR non reçu</value>
+  </data>
+  <data name="_24_Re_Submitted" xml:space="preserve">
+    <value>Soumis de nouveau</value>
+  </data>
+  <data name="_24_Re_SubmittedE" xml:space="preserve">
+    <value>E soumis de nouveau</value>
+  </data>
+  <data name="_25_Declined" xml:space="preserve">
+    <value>Refusé </value>
+  </data>
+  <data name="_25_DeclinedEnableDeals" xml:space="preserve">
+    <value>Transactions activées refusées</value>
+  </data>
+  <data name="_25_DeclinedNorthstar" xml:space="preserve">
+    <value>Northstar refusé</value>
+  </data>
+  <data name="_25_Declinedwoemailnotice" xml:space="preserve">
+    <value>Refusé (sans avis par courriel)</value>
+  </data>
+  <data name="_26_Pre_Approved15k" xml:space="preserve">
+    <value>En attente de l'approbation d'Enbridge</value>
+  </data>
+  <data name="_26_Pre_ApprovedECP" xml:space="preserve">
+    <value>En attente de l'approbation d'Enbridge</value>
+  </data>
+  <data name="_27_FinalReview_RecommendApproval" xml:space="preserve">
+    <value>Examen final – Recommander l’autorisation</value>
+  </data>
+  <data name="_28_Approved" xml:space="preserve">
+    <value>Autorisé </value>
+  </data>
+  <data name="_28_Approved15k" xml:space="preserve">
+    <value>Autorisé 15 000 $</value>
+  </data>
+  <data name="_28_ApprovedEcoEnergy" xml:space="preserve">
+    <value>Autorisé (écoénergétique)</value>
+  </data>
+  <data name="_28_ApprovedECP" xml:space="preserve">
+    <value>Autorisé (ECP)</value>
+  </data>
+  <data name="_28_ApprovedEnable" xml:space="preserve">
+    <value>Autorisé – activé</value>
+  </data>
+  <data name="_28_ApprovedEnbridge" xml:space="preserve">
+    <value>Autorisé (Enbridge)</value>
+  </data>
+  <data name="_28_ApprovedNorthstar" xml:space="preserve">
+    <value>Autorisé – Northstar</value>
+  </data>
+  <data name="_28_ApprovedNorthstarwoemail" xml:space="preserve">
+    <value>Autorisé – Northstar (sans courriel)</value>
+  </data>
+  <data name="_28_ApprovedSecondLook" xml:space="preserve">
+    <value>Autorisé – second examen</value>
+  </data>
+  <data name="_28_ApprovedUtileCredit" xml:space="preserve">
+    <value>Autorisé (Utile Credit)</value>
+  </data>
+  <data name="_28_ApprovedVault" xml:space="preserve">
+    <value>Autorisé Vault</value>
+  </data>
+  <data name="_28_Approvedwoemailnotice" xml:space="preserve">
+    <value>Autorisé (sans avis par courriel)</value>
+  </data>
+  <data name="_29_Declinedwouemailnotification" xml:space="preserve">
+    <value>Refusé (sans avis par courriel)</value>
+  </data>
+  <data name="_29_DWverbalapproval" xml:space="preserve">
+    <value>DW Approbation verbale</value>
+  </data>
+  <data name="_30_ReadytoDoc" xml:space="preserve">
+    <value>Prêt pour les documents</value>
+  </data>
+  <data name="_31_DocsOut" xml:space="preserve">
+    <value>Documents sortants</value>
+  </data>
+  <data name="_32_DocsReceived" xml:space="preserve">
+    <value>Documents reçus</value>
+  </data>
+  <data name="_34_DocsBackIncomplete" xml:space="preserve">
+    <value>Documents retournés incomplets</value>
+  </data>
+  <data name="_35_DeadDeal" xml:space="preserve">
+    <value>Transaction abandonnée</value>
+  </data>
+  <data name="_37_PendingAuditCall" xml:space="preserve">
+    <value>Appel de vérification en attente</value>
+  </data>
+  <data name="_38_Awaitingdelivery" xml:space="preserve">
+    <value>En attente de livraison</value>
+  </data>
+  <data name="_40_DealFundingRequested" xml:space="preserve">
+    <value>Financement d’affaire demandé</value>
+  </data>
+  <data name="_42_ReadyforAudit" xml:space="preserve">
+    <value>Prêt pour la vérification</value>
+  </data>
+  <data name="_46_Funded_Syndicated" xml:space="preserve">
+    <value>Financé – syndiqué</value>
+  </data>
+  <data name="_48_AuditinProgress" xml:space="preserve">
+    <value>Vérification en cours</value>
+  </data>
+  <data name="_49_FundingTomorrow" xml:space="preserve">
+    <value>Financement demain</value>
+  </data>
+  <data name="_50_AuditedDeficient" xml:space="preserve">
+    <value>Vérifié – déficient</value>
+  </data>
+  <data name="_51_AuditedAwaitingTPV" xml:space="preserve">
+    <value>Vérifié - En attente de TPV</value>
+  </data>
+  <data name="_52_TPVConfirmed" xml:space="preserve">
+    <value>TPV confirmé</value>
+  </data>
+  <data name="_53_TPVInternal" xml:space="preserve">
+    <value>TPV Interne</value>
+  </data>
+  <data name="_84_ExpiredApproval" xml:space="preserve">
+    <value>Autorisation expirée</value>
+  </data>
+  <data name="_85_CustomerChangedMind" xml:space="preserve">
+    <value>Le client a changé d’avis</value>
+  </data>
+  <data name="_86_Cancelled" xml:space="preserve">
+    <value>Annulé</value>
+  </data>
+  <data name="_90_MasterLineofCreditapproval" xml:space="preserve">
+    <value>Autorisation de la marge de crédit principale</value>
+  </data>
+  <data name="_91_Terminated" xml:space="preserve">
+    <value>Terminé</value>
+  </data>
+  <data name="_ApprovedBlueChip" xml:space="preserve">
+    <value>Autorisé Blue Chip </value>
+  </data>
+  <data name="_Booked" xml:space="preserve">
+    <value>Réservé</value>
+  </data>
+  <data name="_Cancelled" xml:space="preserve">
+    <value>Annulé</value>
+  </data>
+  <data name="_DeclinedBlueChip" xml:space="preserve">
+    <value>Refusé Blue Chip</value>
+  </data>
+  <data name="_Exported" xml:space="preserve">
+    <value>Exporté</value>
+  </data>
+  <data name="_PreApproved20K" xml:space="preserve">
+    <value>Préautorisé 20 000</value>
+  </data>
+  <data name="_PreApproved5K" xml:space="preserve">
+    <value>Préautorisé 5 000</value>
+  </data>
+  <data name="_Pre_Approved" xml:space="preserve">
+    <value>Préapprouvé </value>
+  </data>
+  <data name="_Pre_Approved10K" xml:space="preserve">
+    <value>Autorisé 10 000</value>
+  </data>
+  <data name="_Pre_Approved15K" xml:space="preserve">
+    <value>Préapprouvé 15 000</value>
+  </data>
+  <data name="_S_Approved" xml:space="preserve">
+    <value>Autorisé</value>
+  </data>
+  <data name="_S_Creditreview" xml:space="preserve">
+    <value>Évaluation de crédit</value>
+  </data>
+  <data name="_S_Dead" xml:space="preserve">
+    <value>Décédé</value>
+  </data>
+  <data name="_S_Declined" xml:space="preserve">
+    <value>Refusé</value>
+  </data>
+  <data name="_S_Docsin" xml:space="preserve">
+    <value>Documents entrants</value>
+  </data>
+  <data name="_S_Docsout" xml:space="preserve">
+    <value>Documents sortants</value>
+  </data>
+  <data name="_S_Funded" xml:space="preserve">
+    <value>Financé</value>
+  </data>
+  <data name="_S_Fundingrequested" xml:space="preserve">
+    <value>Financement demandé</value>
+  </data>
+  <data name="_S_Moreinformation" xml:space="preserve">
+    <value>En savoir plus</value>
+  </data>
+  <data name="_S_Submitted" xml:space="preserve">
+    <value>Soumis</value>
+  </data>
+  <data name="_25_DeclinedBlueChip" xml:space="preserve">
+    <value>Refusé Blue Chip</value>
+  </data>
+  <data name="_26_Pre_Approved" xml:space="preserve">
+    <value>En attente de l'approbation d'Enbridge</value>
+  </data>
+  <data name="_28_ApprovedBlueChip" xml:space="preserve">
+    <value>Autorisé Blue Chip</value>
+  </data>
+  <data name="Unemployed" xml:space="preserve">
+    <value>Sans emploi</value>
+  </data>
+  <data name="ByidCard" xml:space="preserve">
+    <value>Carte BYID</value>
+  </data>
+  <data name="DealerCancelledEsign" xml:space="preserve">
+    <value>L'entrepreneur a annulé le processus lié à la signature électronique</value>
+  </data>
+  <data name="CanadianFamilyMilitaryCard" xml:space="preserve">
+    <value>Carte d’identité pour les familles des militaires canadiens
+</value>
+  </data>
+  <data name="CanadianMilitaryCard" xml:space="preserve">
+    <value>Carte d’emploi pour les militaires canadiens</value>
+  </data>
+  <data name="CanadianPassport" xml:space="preserve">
+    <value>Passeport canadien ou étranger</value>
+  </data>
+  <data name="CertificateInidanStatus" xml:space="preserve">
+    <value>Certificat du statut d’Indien</value>
+  </data>
+  <data name="DriverLicense" xml:space="preserve">
+    <value>Permis de conduire</value>
+  </data>
+  <data name="PalCard" xml:space="preserve">
+    <value>Permis de possession et d’acquisition</value>
+  </data>
+  <data name="PermanentResidencyCard" xml:space="preserve">
+    <value>Carte de résident permanent</value>
+  </data>
+  <data name="Employed" xml:space="preserve">
+    <value>Employé</value>
+  </data>
+  <data name="Suite" xml:space="preserve">
+    <value>Bureau</value>
+  </data>
+  <data name="Retired" xml:space="preserve">
+    <value>À la retraite</value>
+  </data>
+  <data name="SelfEmployed" xml:space="preserve">
+    <value>travailleur autonome</value>
+  </data>
+  <data name="CanadianBlindIdentificationCard" xml:space="preserve">
+    <value>Carte d’identité de l’Institut national canadien pour les aveugles</value>
+  </data>
+  <data name="CanadianCitizenshipCard" xml:space="preserve">
+    <value>Carte de citoyenneté canadienne</value>
+  </data>
+  <data name="Annual" xml:space="preserve">
+    <value>Annuel</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>Temps plein</value>
+  </data>
+  <data name="HourlyRate" xml:space="preserve">
+    <value>Taux horaire</value>
+  </data>
+  <data name="PartTime" xml:space="preserve">
+    <value>Temps partiel</value>
+  </data>
+  <data name="SalaryIncome" xml:space="preserve">
+    <value>Salaire</value>
+  </data>
+  <data name="ChequeBankPAP" xml:space="preserve">
+    <value>Chèque annulé ou lettre d’autorisation de paiement pré-autorisé par la banque</value>
+  </data>
+  <data name="CreditApplication" xml:space="preserve">
+    <value>Demande de crédit</value>
+  </data>
+  <data name="IncomeVerification" xml:space="preserve">
+    <value>Preuve de revenu</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Ville</value>
+  </data>
+  <data name="CostOfBorrowing" xml:space="preserve">
+    <value>Frais d’emprunt</value>
+  </data>
+  <data name="CustomerFirstName" xml:space="preserve">
+    <value>Client Prénom</value>
+  </data>
+  <data name="CustomerLastName" xml:space="preserve">
+    <value>Client Nom de famille</value>
+  </data>
+  <data name="DealerInvoiceAmount" xml:space="preserve">
+    <value>Montant de la facture</value>
+  </data>
+  <data name="DownPayment" xml:space="preserve">
+    <value>Acompte</value>
+  </data>
+  <data name="MonthlyPayment" xml:space="preserve">
+    <value>Paiement mensuel</value>
+  </data>
+  <data name="PaymentType" xml:space="preserve">
+    <value>Type de paiement</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Code postal</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="TotalAmountFinanced" xml:space="preserve">
+    <value>Total du montant financé</value>
+  </data>
+  <data name="TotalObligation" xml:space="preserve">
+    <value>Total de l’obligation</value>
+  </data>
+  <data name="_CVCConfirmed" xml:space="preserve">
+    <value>CVC Confirmé</value>
+  </data>
+  <data name="_CVCWaitingtoFund" xml:space="preserve">
+    <value>CVC Attendant à fonds</value>
+  </data>
+  <data name="VoidChequeBankPAPAuthorizationLetter" xml:space="preserve">
+    <value>Chèque annulé ou lettre d’autorisation de paiement pré-autorisé par la banque</value>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>Personnaliser</value>
+  </data>
+  <data name="EqualPayments" xml:space="preserve">
+    <value>0% Egal Payments</value>
+  </data>
+  <data name="StandardRate" xml:space="preserve">
+    <value>Taux Standard</value>
+  </data>
+  <data name="_ConditionalApproval" xml:space="preserve">
+    <value>Approbation conditionnelle</value>
+  </data>
+  <data name="_PreApproved" xml:space="preserve">
+    <value>Préapprouvé </value>
+  </data>
+  <data name="ContractChangedCancelledEsign" xml:space="preserve">
+    <value>Le contrat a été modifié</value>
+  </data>
+  <data name="LeaseApplicationHwt" xml:space="preserve">
+    <value>Location (Réservoir  d'eau chaude)</value>
+  </data>
+  <data name="LeaseApplication" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="_PreApproved15K" xml:space="preserve">
+    <value>Préapprouvé 15 000</value>
+  </data>
+  <data name="_PreApproved75K" xml:space="preserve">
+    <value>Préapprouvé 7 500</value>
+  </data>
+  <data name="_Pre_Approved20K" xml:space="preserve">
+    <value>Préapprouvé 20 000</value>
+  </data>
+  <data name="Prime" xml:space="preserve">
+    <value>A risque élevé</value>
+  </data>
+  <data name="PrimePlus" xml:space="preserve">
+    <value>A risque normal</value>
+  </data>
+  <data name="SuperPrime" xml:space="preserve">
+    <value>A faible risque</value>
+  </data>
+  <data name="CombiBoiler" xml:space="preserve">
+    <value>chaudière  mixte</value>
+  </data>
+  <data name="HotWaterHeaterCV" xml:space="preserve">
+    <value>chauffe eau (évent conventionnel)</value>
+  </data>
+  <data name="HotWaterHeaterPV" xml:space="preserve">
+    <value>chauffe eau (évent de puissance )</value>
+  </data>
+  <data name="HumidifierWithFurnace" xml:space="preserve">
+    <value>Humidificateur avec four</value>
+  </data>
+  <data name="MediaFilterNSAU" xml:space="preserve">
+    <value>Filtre média (pas d'unités autonomes)</value>
+  </data>
+  <data name="ReverseOsmosisNSAU" xml:space="preserve">
+    <value>Osmose inverse (pas d'unités autonomes)</value>
+  </data>
+  <data name="TwoPiecesofEquipmentWSCF" xml:space="preserve">
+    <value>2 pièces d'équipement (adoucisseur d'eau / filtre à charbon)</value>
+  </data>
+  <data name="WaterFilter" xml:space="preserve">
+    <value>Filtre à eau</value>
+  </data>
+  <data name="WaterFilterWaterSoftener" xml:space="preserve">
+    <value>Filtre à eau et adoucisseur d'eau</value>
+  </data>
+  <data name="WaterSoftener" xml:space="preserve">
+    <value>Adoucisseur d'eau</value>
+  </data>
+  <data name="WholeHomeCombo" xml:space="preserve">
+    <value>Combo maison entière</value>
+  </data>
+  <data name="DealerProfileUpdate" xml:space="preserve">
+    <value>Mise à jour du profil du marchand</value>
+  </data>
+  <data name="FundedDeals" xml:space="preserve">
+    <value>Demandes financées</value>
+  </data>
+  <data name="PendingDeals" xml:space="preserve">
+    <value>Demandes en attente</value>
+  </data>
+  <data name="PortalInquiries" xml:space="preserve">
+    <value>Informations sur le portail</value>
+  </data>
+  <data name="ProgramInquiries" xml:space="preserve">
+    <value>Informations sur le programme</value>
+  </data>
+</root>

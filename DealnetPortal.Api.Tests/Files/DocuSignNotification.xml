@@ -1,0 +1,1048 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0">
+  <EnvelopeStatus>
+    <RecipientStatuses>
+      <RecipientStatus>
+        <Type>Signer</Type>
+        <Email>testcw@mailinator.com</Email>
+        <UserName>Joe Doe</UserName>
+        <RoutingOrder>1</RoutingOrder>
+        <Sent>2017-10-10T06:27:22</Sent>
+        <Delivered>2017-10-10T06:31:15.35</Delivered>
+        <Signed>2017-10-10T06:31:23.663</Signed>
+        <DeclineReason xsi:nil="true" />
+        <Status>Completed</Status>
+        <RecipientIPAddress>195.206.224.50</RecipientIPAddress>
+        <CustomFields />
+        <TabStatuses>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>239</XPosition>
+            <YPosition>1066</YPosition>
+            <TabLabel>EAN1</TabLabel>
+            <TabName />
+            <TabValue>1</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>1</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>275</XPosition>
+            <YPosition>1066</YPosition>
+            <TabLabel>EAN2</TabLabel>
+            <TabName />
+            <TabValue>2</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>2</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>308</XPosition>
+            <YPosition>1066</YPosition>
+            <TabLabel>EAN3</TabLabel>
+            <TabName />
+            <TabValue>3</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>3</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>343</XPosition>
+            <YPosition>1066</YPosition>
+            <TabLabel>EAN4</TabLabel>
+            <TabName />
+            <TabValue>4</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>4</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>379</XPosition>
+            <YPosition>1066</YPosition>
+            <TabLabel>EAN5</TabLabel>
+            <TabName />
+            <TabValue>5</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>5</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>412</XPosition>
+            <YPosition>1066</YPosition>
+            <TabLabel>EAN6</TabLabel>
+            <TabName />
+            <TabValue>6</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>6</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>447</XPosition>
+            <YPosition>1066</YPosition>
+            <TabLabel>EAN7</TabLabel>
+            <TabName />
+            <TabValue>7</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>7</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>481</XPosition>
+            <YPosition>1066</YPosition>
+            <TabLabel>EAN8</TabLabel>
+            <TabName />
+            <TabValue>8</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>8</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>514</XPosition>
+            <YPosition>1066</YPosition>
+            <TabLabel>EAN9</TabLabel>
+            <TabName />
+            <TabValue>9</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>9</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>550</XPosition>
+            <YPosition>1066</YPosition>
+            <TabLabel>EAN10</TabLabel>
+            <TabName />
+            <TabValue>0</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>0</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>583</XPosition>
+            <YPosition>1066</YPosition>
+            <TabLabel>EAN11</TabLabel>
+            <TabName />
+            <TabValue>1</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>1</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>618</XPosition>
+            <YPosition>1066</YPosition>
+            <TabLabel>EAN12</TabLabel>
+            <TabName />
+            <TabValue>2</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>2</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>SignHereOptional</TabType>
+            <Status>Signed</Status>
+            <XPosition>616</XPosition>
+            <YPosition>1341</YPosition>
+            <TabLabel>Signature1</TabLabel>
+            <TabName>SignHere</TabName>
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+          </TabStatus>
+          <TabStatus>
+            <TabType>SignHereOptional</TabType>
+            <Status>Signed</Status>
+            <XPosition>847</XPosition>
+            <YPosition>1500</YPosition>
+            <TabLabel>Signature1</TabLabel>
+            <TabName>SignHere</TabName>
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>3</PageNumber>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>281</XPosition>
+            <YPosition>356</YPosition>
+            <TabLabel>City</TabLabel>
+            <TabName />
+            <TabValue>Montréal</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>Montréal</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>583</XPosition>
+            <YPosition>354</YPosition>
+            <TabLabel>Province</TabLabel>
+            <TabName />
+            <TabValue>ON</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>ON</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>912</XPosition>
+            <YPosition>660</YPosition>
+            <TabLabel>AirConditionerMonthlyRental</TabLabel>
+            <TabName />
+            <TabValue>1000.00</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>1000.00</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>518</XPosition>
+            <YPosition>660</YPosition>
+            <TabLabel>AirConditionerDetails</TabLabel>
+            <TabName />
+            <TabValue>aaa</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>aaa</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>583</XPosition>
+            <YPosition>922</YPosition>
+            <TabLabel>HST</TabLabel>
+            <TabName />
+            <TabValue>130.00</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>130.00</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>347</XPosition>
+            <YPosition>218</YPosition>
+            <TabLabel>FirstName</TabLabel>
+            <TabName />
+            <TabValue>Joe</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>Joe</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>622</XPosition>
+            <YPosition>218</YPosition>
+            <TabLabel>LastName</TabLabel>
+            <TabName />
+            <TabValue>Doe</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>Doe</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>412</XPosition>
+            <YPosition>310</YPosition>
+            <TabLabel>InstallationAddress</TabLabel>
+            <TabName />
+            <TabValue>Avenue Papineau</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>Avenue Papineau</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>891</XPosition>
+            <YPosition>220</YPosition>
+            <TabLabel>DateOfBirth</TabLabel>
+            <TabName />
+            <TabValue>09/12/1973</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>09/12/1973</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>945</XPosition>
+            <YPosition>354</YPosition>
+            <TabLabel>PostalCode</TabLabel>
+            <TabName />
+            <TabValue>MZ2121</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>MZ2121</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>414</XPosition>
+            <YPosition>922</YPosition>
+            <TabLabel>MonthlyPayment</TabLabel>
+            <TabName />
+            <TabValue>1000.00</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>1000.00</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>722</XPosition>
+            <YPosition>922</YPosition>
+            <TabLabel>TotalPayment</TabLabel>
+            <TabName />
+            <TabValue>1130.00</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>1130.00</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>781</XPosition>
+            <YPosition>400</YPosition>
+            <TabLabel>BusinessOrCellPhone</TabLabel>
+            <TabName />
+            <TabValue>1234567890</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>1234567890</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>241</XPosition>
+            <YPosition>666</YPosition>
+            <TabLabel>IsAirConditioner</TabLabel>
+            <TabName />
+            <TabValue>X</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>X</OriginalValue>
+            <CustomTabType>Checkbox</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>235</XPosition>
+            <YPosition>1014</YPosition>
+            <TabLabel>IsEnbridge</TabLabel>
+            <TabName />
+            <TabValue>X</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>X</OriginalValue>
+            <CustomTabType>Checkbox</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>364</XPosition>
+            <YPosition>1560</YPosition>
+            <TabLabel>SalesRep</TabLabel>
+            <TabName />
+            <TabValue>aaa</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>aaa</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Signed</Status>
+            <XPosition>666</XPosition>
+            <YPosition>1577</YPosition>
+            <TabLabel>InstallDate</TabLabel>
+            <TabName />
+            <TabValue>09/30/2017</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <OriginalValue>09/30/2017</OriginalValue>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>DateSigned</TabType>
+            <Status>Signed</Status>
+            <XPosition>981</XPosition>
+            <YPosition>1416</YPosition>
+            <TabLabel>Date Signed 93718db6-8062-4ddd-b394-2c797adc2f74</TabLabel>
+            <TabName>DateSigned</TabName>
+            <TabValue>10/10/2017</TabValue>
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>912</XPosition>
+            <YPosition>706</YPosition>
+            <TabLabel>BoilerMonthlyRental</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>912</XPosition>
+            <YPosition>612</YPosition>
+            <TabLabel>FurnaceMonthlyRental</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>912</XPosition>
+            <YPosition>800</YPosition>
+            <TabLabel>OtherMonthlyRental1</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>914</XPosition>
+            <YPosition>847</YPosition>
+            <TabLabel>OtherMonthlyRental2</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>912</XPosition>
+            <YPosition>752</YPosition>
+            <TabLabel>WaterFiltrationMonthlyRental</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>518</XPosition>
+            <YPosition>612</YPosition>
+            <TabLabel>FurnaceDetails</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>518</XPosition>
+            <YPosition>800</YPosition>
+            <TabLabel>OtherDetails1</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>518</XPosition>
+            <YPosition>847</YPosition>
+            <TabLabel>OtherDetails2</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>518</XPosition>
+            <YPosition>752</YPosition>
+            <TabLabel>WaterFiltrationDetails</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>518</XPosition>
+            <YPosition>706</YPosition>
+            <TabLabel>BoilerDetails</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>347</XPosition>
+            <YPosition>262</YPosition>
+            <TabLabel>FirstName_2</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>622</XPosition>
+            <YPosition>262</YPosition>
+            <TabLabel>LastName_2</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>297</XPosition>
+            <YPosition>445</YPosition>
+            <TabLabel>EmailAddress</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>285</XPosition>
+            <YPosition>400</YPosition>
+            <TabLabel>HomePhone</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>533</XPosition>
+            <YPosition>491</YPosition>
+            <TabLabel>MailingAddress</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>891</XPosition>
+            <YPosition>262</YPosition>
+            <TabLabel>DateOfBirth_2</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <ValidationPattern />
+            <CustomTabType>Text</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>243</XPosition>
+            <YPosition>620</YPosition>
+            <TabLabel>IsFurnace</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <CustomTabType>Checkbox</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>233</XPosition>
+            <YPosition>500</YPosition>
+            <TabLabel>IsMailingDifferent</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <CustomTabType>Checkbox</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>243</XPosition>
+            <YPosition>712</YPosition>
+            <TabLabel>IsBoiler</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <CustomTabType>Checkbox</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>241</XPosition>
+            <YPosition>854</YPosition>
+            <TabLabel>IsOther2</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <CustomTabType>Checkbox</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>241</XPosition>
+            <YPosition>804</YPosition>
+            <TabLabel>IsOther1</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <CustomTabType>Checkbox</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>241</XPosition>
+            <YPosition>760</YPosition>
+            <TabLabel>IsWaterFiltration</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <CustomTabType>Checkbox</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>666</XPosition>
+            <YPosition>1010</YPosition>
+            <TabLabel>IsPAD</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <CustomTabType>Checkbox</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>791</XPosition>
+            <YPosition>1064</YPosition>
+            <TabLabel>IsPAD15</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <CustomTabType>Checkbox</CustomTabType>
+          </TabStatus>
+          <TabStatus>
+            <TabType>Custom</TabType>
+            <Status>Active</Status>
+            <XPosition>666</XPosition>
+            <YPosition>1064</YPosition>
+            <TabLabel>IsPAD1</TabLabel>
+            <TabName />
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+            <CustomTabType>Checkbox</CustomTabType>
+          </TabStatus>
+        </TabStatuses>
+        <RecipientAttachment>
+          <Attachment>
+            <Data>PEZvcm1EYXRhPjx4ZmRmPjxmaWVsZHM+PGZpZWxkIG5hbWU9IkVBTjEiPjx2YWx1ZT4xPC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJFQU4yIj48dmFsdWU+MjwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iRUFOMyI+PHZhbHVlPjM8L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IkVBTjQiPjx2YWx1ZT40PC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJFQU41Ij48dmFsdWU+NTwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iRUFONiI+PHZhbHVlPjY8L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IkVBTjciPjx2YWx1ZT43PC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJFQU44Ij48dmFsdWU+ODwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iRUFOOSI+PHZhbHVlPjk8L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IkVBTjEwIj48dmFsdWU+MDwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iRUFOMTEiPjx2YWx1ZT4xPC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJFQU4xMiI+PHZhbHVlPjI8L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IkNpdHkiPjx2YWx1ZT5Nb250csOpYWw8L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IlByb3ZpbmNlIj48dmFsdWU+T048L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IkFpckNvbmRpdGlvbmVyTW9udGhseVJlbnRhbCI+PHZhbHVlPjEwMDAuMDA8L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IkFpckNvbmRpdGlvbmVyRGV0YWlscyI+PHZhbHVlPmFhYTwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iSFNUIj48dmFsdWU+MTMwLjAwPC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJGaXJzdE5hbWUiPjx2YWx1ZT5Kb2U8L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9Ikxhc3ROYW1lIj48dmFsdWU+RG9lPC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJJbnN0YWxsYXRpb25BZGRyZXNzIj48dmFsdWU+QXZlbnVlIFBhcGluZWF1PC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJEYXRlT2ZCaXJ0aCI+PHZhbHVlPjA5LzEyLzE5NzM8L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IlBvc3RhbENvZGUiPjx2YWx1ZT5NWjIxMjE8L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9Ik1vbnRobHlQYXltZW50Ij48dmFsdWU+MTAwMC4wMDwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iVG90YWxQYXltZW50Ij48dmFsdWU+MTEzMC4wMDwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iQnVzaW5lc3NPckNlbGxQaG9uZSI+PHZhbHVlPjEyMzQ1Njc4OTA8L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IklzQWlyQ29uZGl0aW9uZXIiPjx2YWx1ZT5YPC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJJc0VuYnJpZGdlIj48dmFsdWU+WDwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iU2FsZXNSZXAiPjx2YWx1ZT5hYWE8L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9Ikluc3RhbGxEYXRlIj48dmFsdWU+MDkvMzAvMjAxNzwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iRGF0ZVNpZ25lZCI+PHZhbHVlPjEwLzEwLzIwMTc8L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IkJvaWxlck1vbnRobHlSZW50YWwiPjx2YWx1ZT48L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IkZ1cm5hY2VNb250aGx5UmVudGFsIj48dmFsdWU+PC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJPdGhlck1vbnRobHlSZW50YWwxIj48dmFsdWU+PC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJPdGhlck1vbnRobHlSZW50YWwyIj48dmFsdWU+PC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJXYXRlckZpbHRyYXRpb25Nb250aGx5UmVudGFsIj48dmFsdWU+PC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJGdXJuYWNlRGV0YWlscyI+PHZhbHVlPjwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iT3RoZXJEZXRhaWxzMSI+PHZhbHVlPjwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iT3RoZXJEZXRhaWxzMiI+PHZhbHVlPjwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iV2F0ZXJGaWx0cmF0aW9uRGV0YWlscyI+PHZhbHVlPjwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iQm9pbGVyRGV0YWlscyI+PHZhbHVlPjwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iRmlyc3ROYW1lXzIiPjx2YWx1ZT48L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9Ikxhc3ROYW1lXzIiPjx2YWx1ZT48L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IkVtYWlsQWRkcmVzcyI+PHZhbHVlPjwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iSG9tZVBob25lIj48dmFsdWU+PC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJNYWlsaW5nQWRkcmVzcyI+PHZhbHVlPjwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iRGF0ZU9mQmlydGhfMiI+PHZhbHVlPjwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iSXNGdXJuYWNlIj48dmFsdWU+PC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJJc01haWxpbmdEaWZmZXJlbnQiPjx2YWx1ZT48L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IklzQm9pbGVyIj48dmFsdWU+PC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJJc090aGVyMiI+PHZhbHVlPjwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iSXNPdGhlcjEiPjx2YWx1ZT48L3ZhbHVlPjwvZmllbGQ+PGZpZWxkIG5hbWU9IklzV2F0ZXJGaWx0cmF0aW9uIj48dmFsdWU+PC92YWx1ZT48L2ZpZWxkPjxmaWVsZCBuYW1lPSJJc1BBRCI+PHZhbHVlPjwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iSXNQQUQxNSI+PHZhbHVlPjwvdmFsdWU+PC9maWVsZD48ZmllbGQgbmFtZT0iSXNQQUQxIj48dmFsdWU+PC92YWx1ZT48L2ZpZWxkPjwvZmllbGRzPjwveGZkZj48L0Zvcm1EYXRhPg==</Data>
+            <Label>DSXForm</Label>
+          </Attachment>
+        </RecipientAttachment>
+        <AccountStatus>Active</AccountStatus>
+        <FormData>
+          <xfdf>
+            <fields>
+              <field name="EAN1">
+                <value>1</value>
+              </field>
+              <field name="EAN2">
+                <value>2</value>
+              </field>
+              <field name="EAN3">
+                <value>3</value>
+              </field>
+              <field name="EAN4">
+                <value>4</value>
+              </field>
+              <field name="EAN5">
+                <value>5</value>
+              </field>
+              <field name="EAN6">
+                <value>6</value>
+              </field>
+              <field name="EAN7">
+                <value>7</value>
+              </field>
+              <field name="EAN8">
+                <value>8</value>
+              </field>
+              <field name="EAN9">
+                <value>9</value>
+              </field>
+              <field name="EAN10">
+                <value>0</value>
+              </field>
+              <field name="EAN11">
+                <value>1</value>
+              </field>
+              <field name="EAN12">
+                <value>2</value>
+              </field>
+              <field name="City">
+                <value>Montréal</value>
+              </field>
+              <field name="Province">
+                <value>ON</value>
+              </field>
+              <field name="AirConditionerMonthlyRental">
+                <value>1000.00</value>
+              </field>
+              <field name="AirConditionerDetails">
+                <value>aaa</value>
+              </field>
+              <field name="HST">
+                <value>130.00</value>
+              </field>
+              <field name="FirstName">
+                <value>Joe</value>
+              </field>
+              <field name="LastName">
+                <value>Doe</value>
+              </field>
+              <field name="InstallationAddress">
+                <value>Avenue Papineau</value>
+              </field>
+              <field name="DateOfBirth">
+                <value>09/12/1973</value>
+              </field>
+              <field name="PostalCode">
+                <value>MZ2121</value>
+              </field>
+              <field name="MonthlyPayment">
+                <value>1000.00</value>
+              </field>
+              <field name="TotalPayment">
+                <value>1130.00</value>
+              </field>
+              <field name="BusinessOrCellPhone">
+                <value>1234567890</value>
+              </field>
+              <field name="IsAirConditioner">
+                <value>X</value>
+              </field>
+              <field name="IsEnbridge">
+                <value>X</value>
+              </field>
+              <field name="SalesRep">
+                <value>aaa</value>
+              </field>
+              <field name="InstallDate">
+                <value>09/30/2017</value>
+              </field>
+              <field name="DateSigned">
+                <value>10/10/2017</value>
+              </field>
+              <field name="BoilerMonthlyRental">
+                <value />
+              </field>
+              <field name="FurnaceMonthlyRental">
+                <value />
+              </field>
+              <field name="OtherMonthlyRental1">
+                <value />
+              </field>
+              <field name="OtherMonthlyRental2">
+                <value />
+              </field>
+              <field name="WaterFiltrationMonthlyRental">
+                <value />
+              </field>
+              <field name="FurnaceDetails">
+                <value />
+              </field>
+              <field name="OtherDetails1">
+                <value />
+              </field>
+              <field name="OtherDetails2">
+                <value />
+              </field>
+              <field name="WaterFiltrationDetails">
+                <value />
+              </field>
+              <field name="BoilerDetails">
+                <value />
+              </field>
+              <field name="FirstName_2">
+                <value />
+              </field>
+              <field name="LastName_2">
+                <value />
+              </field>
+              <field name="EmailAddress">
+                <value />
+              </field>
+              <field name="HomePhone">
+                <value />
+              </field>
+              <field name="MailingAddress">
+                <value />
+              </field>
+              <field name="DateOfBirth_2">
+                <value />
+              </field>
+              <field name="IsFurnace">
+                <value />
+              </field>
+              <field name="IsMailingDifferent">
+                <value />
+              </field>
+              <field name="IsBoiler">
+                <value />
+              </field>
+              <field name="IsOther2">
+                <value />
+              </field>
+              <field name="IsOther1">
+                <value />
+              </field>
+              <field name="IsWaterFiltration">
+                <value />
+              </field>
+              <field name="IsPAD">
+                <value />
+              </field>
+              <field name="IsPAD15">
+                <value />
+              </field>
+              <field name="IsPAD1">
+                <value />
+              </field>
+            </fields>
+          </xfdf>
+        </FormData>
+        <RecipientId>55cb1af2-c257-4606-afea-efbf0f35971d</RecipientId>
+      </RecipientStatus>
+      <RecipientStatus>
+        <Type>Signer</Type>
+        <Email>testcw@mailinator.com</Email>
+        <UserName>ecosmart</UserName>
+        <RoutingOrder>3</RoutingOrder>
+        <Sent>2017-10-10T06:31:24.837</Sent>
+        <Delivered>2017-10-10T06:42:33.023</Delivered>
+        <Signed>2017-10-10T06:44:12.137</Signed>
+        <DeclineReason xsi:nil="true" />
+        <Status>Completed</Status>
+        <RecipientIPAddress>195.206.224.50</RecipientIPAddress>
+        <CustomFields />
+        <TabStatuses>
+          <TabStatus>
+            <TabType>SignHereOptional</TabType>
+            <Status>Signed</Status>
+            <XPosition>291</XPosition>
+            <YPosition>1391</YPosition>
+            <TabLabel>SignatureD</TabLabel>
+            <TabName>SignHereOptional</TabName>
+            <TabValue />
+            <DocumentID>1</DocumentID>
+            <PageNumber>1</PageNumber>
+          </TabStatus>
+        </TabStatuses>
+        <AccountStatus>Active</AccountStatus>
+        <RecipientId>dc67874b-a191-4a60-a421-7c0f8e9d56cc</RecipientId>
+      </RecipientStatus>
+    </RecipientStatuses>
+    <TimeGenerated>2017-10-10T06:44:32.4397926</TimeGenerated>
+    <EnvelopeID>bc5f5650-8c61-4ad5-9eef-846f36e523cc</EnvelopeID>
+    <Subject>Please Sign Agreement</Subject>
+    <UserName>Ecohome Development</UserName>
+    <Email>hpatel@ecohomefinancial.com</Email>
+    <Status>Completed</Status>
+    <Created>2017-10-10T06:27:21.047</Created>
+    <Sent>2017-10-10T06:31:24.867</Sent>
+    <Delivered>2017-10-10T06:42:33.243</Delivered>
+    <Signed>2017-10-10T06:44:12.167</Signed>
+    <Completed>2017-10-10T06:44:12.167</Completed>
+    <ACStatus>Original</ACStatus>
+    <ACStatusDate>2017-10-10T06:27:21.047</ACStatusDate>
+    <ACHolder>Ecohome Development</ACHolder>
+    <ACHolderEmail>hpatel@ecohomefinancial.com</ACHolderEmail>
+    <ACHolderLocation>DocuSign</ACHolderLocation>
+    <SigningLocation>Online</SigningLocation>
+    <SenderIPAddress>195.206.225.83 </SenderIPAddress>
+    <EnvelopePDFHash />
+    <CustomFields>
+      <CustomField>
+        <Name>AccountId</Name>
+        <Show>false</Show>
+        <Required>false</Required>
+        <Value>2078893</Value>
+        <CustomFieldType>Text</CustomFieldType>
+      </CustomField>
+      <CustomField>
+        <Name>AccountName</Name>
+        <Show>false</Show>
+        <Required>false</Required>
+        <Value>ECOHOME</Value>
+        <CustomFieldType>Text</CustomFieldType>
+      </CustomField>
+      <CustomField>
+        <Name>AccountSite</Name>
+        <Show>false</Show>
+        <Required>false</Required>
+        <Value>demo</Value>
+        <CustomFieldType>Text</CustomFieldType>
+      </CustomField>
+    </CustomFields>
+    <AutoNavigation>true</AutoNavigation>
+    <EnvelopeIdStamping>true</EnvelopeIdStamping>
+    <AuthoritativeCopy>false</AuthoritativeCopy>
+    <DocumentStatuses>
+      <DocumentStatus>
+        <ID>1</ID>
+        <Name>EcoSmart  H.V.A.C RENTAL AGREEMENT - Ontario Aug 2016.pdf</Name>
+        <TemplateName>EcoSmart HVAC Rental</TemplateName>
+        <Sequence>1</Sequence>
+      </DocumentStatus>
+    </DocumentStatuses>
+  </EnvelopeStatus>
+  <DocumentPDFs>
+    <DocumentPDF>
+      <Name>EcoSmart  H.V.A.C RENTAL AGREEMENT - Ontario Aug 2016.pdf</Name>      
+      <DocumentID>1</DocumentID>
+      <DocumentType>CONTENT</DocumentType>
+    </DocumentPDF>
+    <DocumentPDF>
+      <Name>CertificateOfCompletion_bc5f5650-8c61-4ad5-9eef-846f36e523cc.pdf</Name>      
+      <DocumentType>SUMMARY</DocumentType>
+    </DocumentPDF>
+  </DocumentPDFs>
+  <TimeZone>Pacific Standard Time</TimeZone>
+  <TimeZoneOffset>-7</TimeZoneOffset>
+</DocuSignEnvelopeInformation>

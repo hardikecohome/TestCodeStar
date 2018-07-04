@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68167614-D9F6-48BC-AF28-1519BA5C67FD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DealnetPortal.Api.Models</RootNamespace>
+    <AssemblyName>DealnetPortal.Api.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UnitTesting|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\UnitTesting\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Staging|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Staging\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Training|AnyCPU'">
+    <OutputPath>bin\Training\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'TrainingClarity|AnyCPU'">
+    <OutputPath>bin\TrainingClarity\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Production|AnyCPU'">
+    <OutputPath>bin\Production\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'AWSProduction|AnyCPU'">
+    <OutputPath>bin\AWSProduction\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'AWSTestProduction|AnyCPU'">
+    <OutputPath>bin\AWSTestProduction\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountBindingModels.cs" />
+    <Compile Include="Contract\AddressDTO.cs" />
+    <Compile Include="Contract\ApplicationUserDTO.cs" />
+    <Compile Include="Contract\CommentDTO.cs" />
+    <Compile Include="Contract\ContractDataDTO.cs" />
+    <Compile Include="Contract\ContractDetailsDTO.cs" />
+    <Compile Include="Contract\ContractDocumentDTO.cs" />
+    <Compile Include="Contract\ContractorDTO.cs" />
+    <Compile Include="Contract\ContractSalesRepInfoDTO.cs" />
+    <Compile Include="Contract\CustomerCreditReportDTO.cs" />
+    <Compile Include="Contract\CustomerFormDTO.cs" />
+    <Compile Include="Contract\CustomerContractInfoDTO.cs" />
+    <Compile Include="Contract\CustomerInfoDTO.cs" />
+    <Compile Include="Contract\CustomerRiskGroupDTO.cs" />
+    <Compile Include="Contract\CustomerServiceRequestDTO.cs" />
+    <Compile Include="Contract\DealerDTO.cs" />
+    <Compile Include="Contract\CustomerLinkDTO.cs" />
+    <Compile Include="Contract\CustomerLinkLanguageOptionsDTO.cs" />
+    <Compile Include="Contract\DocumentDTO.cs" />
+    <Compile Include="Contract\DocumentTypeDTO.cs" />
+    <Compile Include="Contract\EmailDTO.cs" />
+    <Compile Include="Contract\EmploymentInfoDTO.cs" />
+    <Compile Include="Contract\EquipmentInformation\InstallationPackageDTO.cs" />
+    <Compile Include="Contract\EquipmentSubTypeDTO.cs" />
+    <Compile Include="Contract\EquipmentTypeDTO.cs" />
+    <Compile Include="Contract\InstallationCertificateDataDTO.cs" />
+    <Compile Include="Contract\InstalledEquipmentDTO.cs" />
+    <Compile Include="Contract\LocationDTO.cs" />
+    <Compile Include="Contract\ContractDTO.cs" />
+    <Compile Include="Contract\CreditCheckDTO.cs" />
+    <Compile Include="Contract\CustomerDTO.cs" />
+    <Compile Include="Contract\EquipmentInformation\EquipmentInfoDTO.cs" />
+    <Compile Include="Contract\EquipmentInformation\ExistingEquipmentDTO.cs" />
+    <Compile Include="Contract\EquipmentInformation\NewEquipmentDTO.cs" />
+    <Compile Include="Contract\FlowingSummaryItemDTO.cs" />
+    <Compile Include="Contract\NewCustomerDTO.cs" />
+    <Compile Include="Contract\PaymentInfoDTO.cs" />
+    <Compile Include="Contract\PhoneDTO.cs" />
+    <Compile Include="Contract\ProvinceTaxRateDTO.cs" />
+    <Compile Include="Contract\CustomerDataDTO.cs" />
+    <Compile Include="Contract\RateReductionCardDTO.cs" />
+    <Compile Include="Contract\ServiceRequestDTO.cs" />
+    <Compile Include="Contract\RateCardDTO.cs" />
+    <Compile Include="Contract\SubDealerDTO.cs" />
+    <Compile Include="Contract\VarificationIdsDTO.cs" />
+    <Compile Include="CustomerWallet\CheckUserRequest.cs" />
+    <Compile Include="CustomerWallet\TransactionInfoDTO.cs" />
+    <Compile Include="CustomerWallet\CustomerProfileDTO.cs" />
+    <Compile Include="CustomerWallet\RegisterCustomerBindingModel.cs" />
+    <Compile Include="DealerOnboarding\CompanyInfoDTO.cs" />
+    <Compile Include="DealerOnboarding\DealerInfoDTO.cs" />
+    <Compile Include="DealerOnboarding\DealerInfoKeyDTO.cs" />
+    <Compile Include="DealerOnboarding\AdditionalDocumentDTO.cs" />
+    <Compile Include="DealerOnboarding\DraftLinkDTO.cs" />
+    <Compile Include="DealerOnboarding\LicenseDocumentDTO.cs" />
+    <Compile Include="DealerOnboarding\LicenseTypeDTO.cs" />
+    <Compile Include="DealerOnboarding\OwnerInfoDTO.cs" />
+    <Compile Include="DealerOnboarding\ProductInfoDTO.cs" />
+    <Compile Include="DealerOnboarding\RequiredDocumentDTO.cs" />
+    <Compile Include="DealerProfile\DealerAreaDTO.cs" />
+    <Compile Include="DealerProfile\DealerEquipmentDTO.cs" />
+    <Compile Include="DealerProfile\DealerProfileDTO.cs" />
+    <Compile Include="Contract\TierDTO.cs" />
+    <Compile Include="Notify\MailChimpMember.cs" />
+    <Compile Include="Notify\MandrillRequest.cs" />
+    <Compile Include="Notify\Message.cs" />
+    <Compile Include="Notify\SupportRequestDTO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scanning\DriverLicenseData.cs" />
+    <Compile Include="Scanning\ScanningRequest.cs" />
+    <Compile Include="Scanning\VoidChequeData.cs" />
+    <Compile Include="Signature\ContractSignerDTO.cs" />
+    <Compile Include="Signature\FormField.cs" />
+    <Compile Include="Signature\SignatureSummaryDTO.cs" />
+    <Compile Include="Signature\SignatureUser.cs" />
+    <Compile Include="Signature\SignatureUsersDTO.cs" />
+    <Compile Include="Storage\AgreementDocument.cs" />
+    <Compile Include="Storage\AgreementTemplateDTO.cs" />
+    <Compile Include="UserSettings\BinarySettingDTO.cs" />
+    <Compile Include="UserSettings\StringSettingDTO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DealnetPortal.Api.Common\DealnetPortal.Api.Common.csproj">
+      <Project>{23fa957a-a9de-4929-9ffd-603bae271fba}</Project>
+      <Name>DealnetPortal.Api.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DealnetPortal.Aspire.Integration\DealnetPortal.Aspire.Integration.csproj">
+      <Project>{70E5423B-4DDD-4711-B56E-A28A0BBE473F}</Project>
+      <Name>DealnetPortal.Aspire.Integration</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy $(TargetPath)  ..\..\..\..\lib\  /y/q/r/c</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

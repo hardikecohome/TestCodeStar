@@ -1,0 +1,4 @@
+@using DealnetPortal.Api.Areas.HelpPage.ModelDescriptions
+@model KeyValuePairModelDescription
+Pair of @Html.DisplayFor(m => Model.KeyModelDescription.ModelType, "ModelDescriptionLink", new { modelDescription = Model.KeyModelDescription }) [key]
+and @Html.DisplayFor(m => Model.StringValueModelDescription.ModelType, "ModelDescriptionLink", new { modelDescription = Model.StringValueModelDescription }) [value]
